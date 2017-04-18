@@ -1,5 +1,11 @@
 # 斗鱼TV，通过官方API文档
-import socket,json,re,select,time,requests
+import socket
+import json
+import re
+import select
+import time
+import requests
+
 
 class DouYuDanMuClient(object):
     def __init__(self):
