@@ -1,4 +1,5 @@
 # 易直播TV（管理后台）
+# -*- coding: utf-8 -*-
 import socket
 import json
 import re
@@ -6,8 +7,10 @@ import select
 import time
 import urllib
 import requests
+from http import cookiejar
+import hashlib
 
-HEADERS = {
+headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'}
 cookies = {
     "PHPSESSID": "",
@@ -26,15 +29,58 @@ anchorList = []
 # 主播业绩列表
 anchorStatusList = []
 
+
 class YiClient:
     def __init__(self):
         print("init YiClient")
+        # 使用登录cookie信息
+        self.isLogin = False
+        self.session = requests.session()
+        # 获取一个保存cookie的对象
+        self.session.cookies = cookiejar.LWPCookieJar(filename='cookies_yi.txt')
+        try:
+            self.session.cookies.load(ignore_discard=True)
+            self.isLogin = True
+        except:
+            print("还没有cookies信息")
+            self.isLogin = False
+
+    # 获取验证码
+    def get_captcha(self):
+        captcha_url = 'http://family.yizhibo.com/common/checkcode/checkcode?code_len=4&font_size=12&width=75&height=30&font_color=&background='
+        r = self.session.get(captcha_url, headers=headers)
+        with open('captcha.jpg', 'wb') as f:
+            f.write(r.content)
+        captcha = input("请输入验证码：")
+        return captcha
+
+    # 登录
+    def login(self, username, password):
+        login_url = "http://family.yizhibo.com/account/login/init"
+        print(self.getMd5(password))
+        payload = {
+            'dosubmit': 1,
+            'username': username,
+            'pwd': self.getMd5(password),
+            "code": self.get_captcha(),
+            'go': '/account/index/init'}
+        response = self.session.post(login_url, data=payload, headers=headers)
+        login_result = response.content
+        self.session.cookies.save()
+
+    # 获取MD5加密
+    def getMd5(self, src):
+        md5 = hashlib.md5()
+        md5.update(src.encode(encoding='gb2312'))
+        md5 = md5.hexdigest()
+        # md5 = hashlib.md5(src.encode(encoding='gb2312'))
+        return md5
 
     # 获取主播列表
     def getAnchorList(self, page):
         payload = {'page': page}
         data = urllib.parse.urlencode(payload)
-        reuslt = requests.get(url_anchor_list, data=data, headers=HEADERS, cookies=cookies).text
+        reuslt = requests.get(url_anchor_list, data=data, headers=headers, cookies=cookies).text
         repositories = re.findall('<tbody>(.*?)</tbody>', reuslt, re.S)
         anchorGroup = re.findall('<tr>(.*?)</tr>', repositories[0], re.S)
         for anchor in anchorGroup:
@@ -50,10 +96,19 @@ class YiClient:
             anchorList.append(info)
 
     # 抓取总页数
+    # def getAnchorTotalPage(self):
+    #     payload = {'page': 1}
+    #     data = urllib.parse.urlencode(payload)
+    #     reuslt = requests.get(url_anchor_list, data=data, headers=headers, cookies=cookies).text
+    #     repositories = re.findall('<div class=\\"pagelist\\"><span class=\'nonelink\'>(.*?)</span>', reuslt, re.S)
+    #     pageResult = re.match('共(.*?) 页/(.*?) 条', repositories[0])
+    #     return int(pageResult.group(1))
+
+    # 抓取总页数
     def getAnchorTotalPage(self):
         payload = {'page': 1}
         data = urllib.parse.urlencode(payload)
-        reuslt = requests.get(url_anchor_list, data=data, headers=HEADERS, cookies=cookies).text
+        reuslt = self.session.get(url_anchor_list, data=data, headers=headers).text
         repositories = re.findall('<div class=\\"pagelist\\"><span class=\'nonelink\'>(.*?)</span>', reuslt, re.S)
         pageResult = re.match('共(.*?) 页/(.*?) 条', repositories[0])
         return int(pageResult.group(1))
@@ -62,7 +117,7 @@ class YiClient:
     def getAnchorStatusList(self, page):
         payload = {'page': page}
         data = urllib.parse.urlencode(payload)
-        reuslt = requests.get(url_anchor_status, data=data, headers=HEADERS, cookies=cookies).text
+        reuslt = requests.get(url_anchor_status, data=data, headers=headers, cookies=cookies).text
         repositories = re.findall('<tbody>(.*?)</tbody>', reuslt, re.S)
         anchorGroup = re.findall('<tr>(.*?)</tr>', repositories[0], re.S)
         for anchor in anchorGroup:
@@ -83,15 +138,23 @@ class YiClient:
     def getAnchorStatusTotalPage(self):
         payload = {'page': 1}
         data = urllib.parse.urlencode(payload)
-        reuslt = requests.get(url_anchor_status, data=data, headers=HEADERS, cookies=cookies).text
+        reuslt = requests.get(url_anchor_status, data=data, headers=headers, cookies=cookies).text
         repositories = re.findall('<div class=\\"pagelist\\"><span class=\'nonelink\'>(.*?)</span>', reuslt, re.S)
         pageResult = re.match('共(.*?) 页/(.*?) 条', repositories[0])
         return int(pageResult.group(1))
 
+
 if __name__ == '__main__':
+    username = ""
+    password = ""
     yiClient = YiClient()
+    # if not yiClient.isLogin:
+    #     yiClient.login(username, password)
+    yiClient.login(username, password)
+
     totalAnchorPage = yiClient.getAnchorTotalPage()
     print('总页数:', totalAnchorPage)
+
     page = 1
     while page <= totalAnchorPage:
         yiClient.getAnchorList(page)
