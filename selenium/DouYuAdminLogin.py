@@ -33,6 +33,7 @@ class DouYuAdminLogin():
         action_chains.click_and_hold(elem_code)
         time.sleep(5)
         action_chains.drag_and_drop_by_offset(elem_code, moveX, 0).perform()
+        # action_chains.move_to_element_with_offset(elem_code, moveX, 0).perform()
         elem_login = driver.find_element_by_class_name("loginbox-sbt btn-sub")
         elem_login.submit()
         # driver.quit()
