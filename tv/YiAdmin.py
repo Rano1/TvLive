@@ -9,6 +9,7 @@ import urllib
 import requests
 from http import cookiejar
 import hashlib
+from captcha.rk import RClient
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36'}
@@ -28,6 +29,11 @@ url_anchor_status = host + 'info/index/anchor_status'
 anchorList = []
 # 主播业绩列表
 anchorStatusList = []
+
+ruokuai_username = "z86352868"
+ruokuai_password = "86352868"
+ruokuai_soft_id = "80287"
+ruokuai_soft_key = "a467ec4e89f44a3191dc64e43a16e9a1"
 
 
 class YiClient:
@@ -51,7 +57,17 @@ class YiClient:
         r = self.session.get(captcha_url, headers=headers)
         with open('captcha.jpg', 'wb') as f:
             f.write(r.content)
-        captcha = input("请输入验证码：")
+        # captcha = input("请输入验证码：")
+        # 通过若快破解验证码
+        mRClient = RClient(ruokuai_username, ruokuai_password, ruokuai_soft_id, ruokuai_soft_key)
+        im = open('captcha.jpg', 'rb').read()
+        result = mRClient.rk_create(im, 3040)
+        captcha = 0
+        try:
+            captcha = result['Result']
+        except:
+            pass
+        print("验证码：" + captcha)
         return captcha
 
     # 登录
@@ -66,6 +82,7 @@ class YiClient:
             'go': '/account/index/init'}
         response = self.session.post(login_url, data=payload, headers=headers)
         login_result = response.content
+        print(login_result)
         self.session.cookies.save()
 
     # 获取MD5加密
