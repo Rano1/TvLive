@@ -22,15 +22,19 @@ dcap["phantomjs.page.settings.userAgent"] = (
 br = webdriver.PhantomJS(desired_capabilities=dcap)
 """
 br = webdriver.Chrome()
+br.maximize_window()
 times = 1
 while times > 0:
-    br.get("http://www.jianshu.com/sign_in")
+    br.get("https://www.douyu.com/member/login")
+    # br.get("http://www.jianshu.com/sign_in")
     wait = WebDriverWait(br, 40, 1.0)
-    element = wait.until(EC.presence_of_element_located((By.ID, "session_email_or_mobile_number")))
-    element.send_keys("")
+    # element = wait.until(EC.presence_of_element_located((By.ID, "session_email_or_mobile_number")))
+    element = wait.until(EC.presence_of_element_located((By.NAME, "username")))
+    element.send_keys("test")
     time.sleep(1.2)
-    element = wait.until(EC.presence_of_element_located((By.ID, "session_password")))
-    element.send_keys("")
+    # element = wait.until(EC.presence_of_element_located((By.ID, "session_password")))
+    element = wait.until(EC.presence_of_element_located((By.NAME, "password")))
+    element.send_keys("test123")
     time.sleep(1.2)
 
     hd = {
@@ -196,7 +200,8 @@ while times > 0:
     print(element.text)
 
     wait = WebDriverWait(br, 40, 1.0)
-    element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "sign-in-button")))
+    # element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "sign-in-button")))
+    element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "loginbox-sbt")))
     element.submit()
     time.sleep(10)
 
