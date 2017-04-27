@@ -8,7 +8,7 @@
 import scrapy
 
 
-class QuotesbotItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class HuajiaoItem(scrapy.Item):
+    nickname = scrapy.Field()   # 昵称
+    popularity = scrapy.Field()   # 人气
+

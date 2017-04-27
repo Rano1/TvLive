@@ -6,6 +6,6 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class QuotesbotPipeline(object):
+class HuajiaoPipeline(object):
     def process_item(self, item, spider):
         return item
