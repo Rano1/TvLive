@@ -4,7 +4,6 @@ from scrapy.spiders import Spider
 from scrapy.selector import Selector
 import scrapy
 
-
 class HotSpider(Spider):
     name = 'hot_spider'
 
