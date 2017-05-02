@@ -52,8 +52,10 @@ ROBOTSTXT_OBEY = True
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'qiushi.middlewares.customMiddlewares.CustomUserAgent': 3,
+    'qiushi.middlewares.customMiddlewares.CustomProxy': 10,
+    'qiushi.middlewares.customMiddlewares.CustomUserAgent': 30,
     'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
+    'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware': 20,
 }
 
 # Enable or disable extensions
@@ -64,9 +66,9 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'qiushi.pipelines.QiushiPipeline': 300,
-# }
+ITEM_PIPELINES = {
+    'qiushi.pipelines.QiushiPipeline': 10,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
