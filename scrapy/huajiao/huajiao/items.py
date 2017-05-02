@@ -9,6 +9,8 @@ import scrapy
 
 
 class HuajiaoItem(scrapy.Item):
-    nickname = scrapy.Field()   # 昵称
-    popularity = scrapy.Field()   # 人气
-
+    # define the fields for your item here like:
+    id = scrapy.Field()
+    name = scrapy.Field()
+    img = scrapy.Field()
+    avatar = scrapy.Field()
