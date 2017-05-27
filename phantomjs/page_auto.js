@@ -2,6 +2,7 @@
  * 页面自动化处理
  */
 var url = "http://www.httpuseragent.org";
+// var url = "https://www.douyu.com/2206496";
 var page = require('webpage').create();
 console.log('The default user agent is ' + page.settings.userAgent);
 page.settings.userAgent = 'SpecicalAgent';

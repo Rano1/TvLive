@@ -32,8 +32,25 @@ class MomoClien(object):
             response_json = json.loads(response.text)
             print(response_json)
 
+    # 获取房间列表
+    def getList(self):
+        room_set = set()
+        while True:
+            payload = {'page': page, 'item': -3, 'live': "false"}
+            page += 1
+            r = requests.post("https://web.immomo.com/webmomo/api/scene/recommend/lists", data=payload, headers=header)
+            js = r.json()
+            for room in js['data']['r_infos']:
+                room_set.add(room['stid'])
+            if not js['data']['h_next']:
+                break
+        return room_set
+
 
 if __name__ == '__main__':
     roomId = '23501954'
     momoClinet = MomoClien()
     momoClinet.getInfo(roomId)
+    room_set = momoClinet.getList()
+    for room in room_set:
+        print(room)

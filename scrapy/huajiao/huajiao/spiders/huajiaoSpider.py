@@ -20,4 +20,3 @@ class HuajiaospiderSpider(scrapy.Spider):
             items.append(item)
         print(items)
         return items
-    

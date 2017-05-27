@@ -37,6 +37,16 @@ while times > 0:
     element.send_keys("test123")
     time.sleep(1.2)
 
+    # 点击验证码区域
+    element_radar_tip = br.find_element_by_class_name("geetest_radar_tip")
+    ActionChains(br).click_and_hold(on_element=element_radar_tip).perform()
+    ActionChains(br).release(on_element=element_radar_tip).perform()
+    # element_radar_tip.submit()
+    time.sleep(5)
+    # 获取验证码
+
+
+
     hd = {
         'Accept': 'image/webp,*/*;q=0.8',
         'Accept-Encoding': 'gzip,deflate,sdch',
