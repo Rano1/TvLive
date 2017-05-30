@@ -1,0 +1,570 @@
+2017-05-29 17:41:22		请求网页内容...
+2017-05-29 17:41:23		获取房间信息...
+2017-05-29 17:41:23		房间名:【斗鱼嘉年华】 带你看小姐姐 大主播		|		主播:彡彡九户外
+2017-05-29 17:41:23		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 17:41:23		连接成功,发送登录请求...
+2017-05-29 17:41:24		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2230721920/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 17:41:24		登录成功
+2017-05-29 17:41:24		进入弹幕服务器...
+2017-05-29 17:41:24		心跳包机制启动...
+2017-05-29 17:41:24		监听中
+2017-05-29 17:41:24		龟儿子 今晚见董事长直播吗11
+2017-05-29 17:41:24		HuHQQai 增送了：192
+2017-05-29 17:41:25		嫂子好
+2017-05-29 17:41:25		丑的一逼！，
+2017-05-29 17:41:25		慌张你喜欢不喜欢阿土你说话
+2017-05-29 17:41:26		今晚如家
+2017-05-29 17:41:28		龟儿子 今晚见董事长直播吗
+2017-05-29 17:41:30		好几把丑
+2017-05-29 17:41:31		换一个女的可以？
+2017-05-29 17:41:31		和金老板吃饭能播吗？
+2017-05-29 17:41:31		嫂子好嫂子好
+2017-05-29 17:41:33		快吃呀，你准备吃两个小时？、?
+2017-05-29 17:41:36		龟儿子带女朋友了？
+2017-05-29 17:41:36		在一起
+2017-05-29 17:41:36		慌张不喜欢啊土....
+2017-05-29 17:41:37		夫妻相
+2017-05-29 17:41:37		换水友 太丑了
+2017-05-29 17:41:37		今晚如家
+2017-05-29 17:41:38		好
+2017-05-29 17:41:38		女粉大老远的不容易
+2017-05-29 17:41:39		赶紧买单走人，看不下去了
+2017-05-29 17:41:40		丑的一逼！
+2017-05-29 17:41:40		小姐姐当我女朋友吧
+2017-05-29 17:41:40		找 武田老师
+2017-05-29 17:41:41		龟儿子
+2017-05-29 17:41:41		慌张帅，只是有点矮。
+2017-05-29 17:41:41		阿土妹妹是脑残粉，真爱粉好好招待
+2017-05-29 17:41:41		金老板？？？？？
+2017-05-29 17:41:42		看师兄
+2017-05-29 17:41:43		两小姐姐都没吃
+2017-05-29 17:41:43		师兄露脸，让我打个手冲12
+2017-05-29 17:41:44		小姐姐好白哦
+2017-05-29 17:56:37		请求网页内容...
+2017-05-29 17:56:38		获取房间信息...
+2017-05-29 17:56:38		房间名:【斗鱼嘉年华】 带你看小姐姐 大主播		|		主播:彡彡九户外
+2017-05-29 17:56:38		未开播!		485503
+2017-05-29 17:56:51		请求网页内容...
+2017-05-29 17:56:52		获取房间信息...
+2017-05-29 17:56:52		房间名:武汉斗鱼嘉年华 又是膨胀的一天		|		主播:主播温州炮哥
+2017-05-29 17:56:52		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 17:56:52		连接成功,发送登录请求...
+2017-05-29 17:56:52		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3097305440/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 17:56:52		登录成功
+2017-05-29 17:56:52		进入弹幕服务器...
+2017-05-29 17:56:52		心跳包机制启动...
+2017-05-29 17:56:53		监听中
+2017-05-29 17:56:53		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=35101540/nn@=\xe6\x9f\x92\xe6\x9c\xab\xe6\xa5\x93/txt@=\xe5\xbc\x84\xe6\xad\xbb\xe6\x88\x91\xe6\x9c\xa8/cid@=3345005cb3a54076b9790e0000000000/ic@=avatar@Sdefault@S07/level@=14/sahf@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=6/brid@=85963/hc@=bb71033f96076163411baba56ac54278/el@=/\x00'
+2017-05-29 17:56:53		弄死我木
+2017-05-29 17:56:53		b'\xb1\x00\x00\x00\xb1\x00\x00\x00\xb2\x02\x00\x00type@=uenter/rid@=85963/uid@=170047/nn@=\xe9\xa3\x8e\xe4\xb9\x8b\xe7\xbf\xbc/level@=25/ic@=avatar@S000@S17@S00@S47_avatar/rni@=0/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/sahf@=0/\x00\xf6\x00\x00\x00\xf6\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=13100546/nn@=\xe8\xbf\x9c\xe6\x96\xb9136/txt@=\xe5\x93\x88\xe5\x93\x88\xe5\x93\x88\xe5\x93\x88/cid@=3345005cb3a54076ba790e0000000000/ic@=avatar@S013@S10@S05@S46_avatar/level@=21/sahf@=0/bnn@=131/bl@=4/brid@=69752/hc@=52bbdd2cf86ae72e2adfb0ffedd95cf7/el@=/\x00'
+2017-05-29 17:56:53		b'\x0b\x01\x00\x00\x0b\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=26249229/nn@=\xe4\xba\xa6\xe5\xa6\x82\xe5\x8d\x97\xe6\x98\xa5/txt@=\xe9\xa2\x86\xe5\xaf\xbc\xe5\x91\xa2/cid@=3345005cb3a54076bb790e0000000000/ic@=avatar@S026@S24@S92@S29_avatar/level@=18/sahf@=0/col@=5/bnn@=/bl@=0/brid@=0/hc@=/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:56:53		领导呢
+2017-05-29 17:56:53		b'\xe9\x00\x00\x00\xe9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=101619527/nn@=\xe6\xbc\xab\xe6\xad\xa5\xe5\x9c\xa8\xe9\x9b\xa8\xe5\xb7\xb7/ic@=avanew@Sface@S201701@S09@S23@S50267f7695d301a164c05976077c6c72/eid@=0/level@=13/dw@=128797929/hits@=62/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 17:56:53		漫步在雨巷 增送了：193
+2017-05-29 17:56:54		b'\xe9\x00\x00\x00\xe9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=101619527/nn@=\xe6\xbc\xab\xe6\xad\xa5\xe5\x9c\xa8\xe9\x9b\xa8\xe5\xb7\xb7/ic@=avanew@Sface@S201701@S09@S23@S50267f7695d301a164c05976077c6c72/eid@=0/level@=13/dw@=128797929/hits@=63/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 17:56:54		漫步在雨巷 增送了：193
+2017-05-29 17:56:54		b'\xa3\x00\x00\x00\xa3\x00\x00\x00\xb2\x02\x00\x00type@=uenter/rid@=85963/uid@=8108047/nn@=T\xe5\x93\xa5\xe7\x9a\x845128/level@=26/bdlv@=1/ic@=avatar@Sface@S201609@S01@S92713f1e0d0a5eb68ee6e9363b1bb1e3/rni@=0/el@=/sahf@=0/\x00'
+2017-05-29 17:56:54		b'O\x01\x00\x00O\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=2570710/nn@=\xe6\x92\x9e\xe6\xad\xbb\xe5\xa4\xb4\xe8\xb1\x86\xe8\x85\x90/txt@=\xe7\xbb\x99\xe6\x88\x91\xe7\x95\x99\xe4\xb8\x80\xe4\xb8\xaa\xe5\x91\xa2/cid@=3345005cb3a54076bf790e0000000000/ic@=avatar@S002@S57@S07@S10_avatar/level@=25/sahf@=0/rg@=4/dlv@=3/dc@=7/bdlv@=3/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=12/brid@=85963/hc@=bb71033f96076163411baba56ac54278/el@=eid@AA=1500000005@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:56:54		给我留一个呢
+2017-05-29 17:56:54		b'1\x01\x00\x001\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=19106229/nn@=\xe7\x9b\xb8\xe5\x90\x8c\xe5\xa4\xa9\xe7\xa9\xba\xe4\xb8\x8b/txt@=\xe5\xbc\x84\xe6\xad\xbb\xe4\xbb\x96/cid@=3345005cb3a54076c0790e0000000000/ic@=avatar@S019@S10@S62@S29_avatar/level@=18/sahf@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:56:54		弄死他
+2017-05-29 17:56:55		b'@\x01\x00\x00@\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=2/uid@=13319640/nn@=\xe5\x90\x8e\xe4\xbc\x9a\xe6\x97\xa0\xe6\x9c\x9flalala/txt@=\xe8\xbf\x99\xe4\xb8\xaa\xe6\x98\xaf\xe7\x9c\x9f\xe6\xb0\xb4\xe5\x8f\x8b\xe5\x95\x8a/cid@=3345005cb3a54076c1790e0000000000/ic@=avatar@S013@S31@S96@S40_avatar/level@=18/sahf@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=6/brid@=85963/hc@=bb71033f96076163411baba56ac54278/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:56:55		这个是真水友啊
+2017-05-29 17:56:55		b'O\x01\x00\x00O\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=12183927/nn@=huashexiaozhao/txt@=\xe6\x89\x8e\xe5\xbf\x83\xe4\xba\x86/cid@=3345005cb3a54076c3790e0000000000/ic@=avanew@Sface@S201705@S09@S21@S067ceb0c005aadcc8602b51f79f78fdb/level@=18/sahf@=0/bnn@=\xe5\x97\xa8\xe7\xb2\x89/bl@=8/brid@=6324/hc@=5a180277cbb1e1ea2f848e03278f8129/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00(\x01\x00\x00(\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=12449133/nn@=\xe8\xa2\xab\xe7\x8b\x97\xe5\x92\xac\xe4\xba\x86\xe8\x9b\x8b/txt@=\xe5\xbc\x84\xe6\xad\xbb\xe6\x88\x91\xe6\x9c\xa8/cid@=3345005cb3a54076c4790e0000000000/ic@=avatar@Sface@S201607@S03@Sc28295cbc397a6cfd33b2602944466cf/level@=26/sahf@=0/bdlv@=3/bnn@=/bl@=0/brid@=0/hc@=/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00_\x00\x00\x00_\x00\x00\x00\xb2\x02\x00\x00type@=synexp/o_exp@=230030880/o_lev@=38/o_minexp@=206260000/o_upexp@=49120/rid@=85963/\x00\xe9\x00\x00\x00\xe9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=101619527/nn@=\xe6\xbc\xab\xe6\xad\xa5\xe5\x9c\xa8\xe9\x9b\xa8\xe5\xb7\xb7/ic@=avanew@Sface@S201701@S09@S23@S50267f7695d301a164c05976077c6c72/eid@=0/level@=13/dw@=128797929/hits@=64/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 17:56:55		弄死我木
+2017-05-29 17:56:55		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=20419777/nn@=\xe9\x99\x8c\xe4\xb8\x8a\xe5\x8d\x90\xe5\xb0\x91\xe5\xb9\xb4/txt@=23333333333/cid@=3345005cb3a54076c5790e0000000000/ic@=avanew@Sface@S201611@S13@S18@Se27618b0d0a90853e4993953a57c7caa/level@=12/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:56:55		23333333333
+2017-05-29 17:56:56		b'\\\x01\x00\x00\\\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=18262464/nn@=jalozzz/txt@=\xe5\xbc\x84\xe6\xad\xbb\xe6\x88\x91\xe6\x9c\xa8/cid@=3345005cb3a54076c7790e0000000000/ic@=avanew@Sface@S201705@S06@S22@Sfc1fcedbabe16cf8f0e421f35b3454b5/level@=23/sahf@=0/dlv@=3/dc@=2/bdlv@=3/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=12/brid@=85963/hc@=bb71033f96076163411baba56ac54278/el@=eid@AA=1500000005@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:56:56		弄死我木
+2017-05-29 17:56:56		b'&\x01\x00\x00&\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=17564627/nn@=\xe4\xb8\x80\xe8\xb5\xb7\xe5\x97\xa8\xe5\x91\x80\xe5\x91\x80/txt@=\xe6\x89\x8e\xe5\xbf\x83\xe4\xba\x86/cid@=3345005cb3a54076c8790e0000000000/ic@=avatar@Sdefault@S03/level@=17/sahf@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:56:56		扎心了
+2017-05-29 17:56:56		b'\xb2\x01\x00\x00\xb2\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=10905306/nn@=KangGary\xe4\xb8\xb6/txt@=\xe5\xbc\x84\xe6\xad\xbb\xe6\x88\x91\xe6\x9c\xa8/cid@=3345005cb3a54076c9790e0000000000/ic@=avatar@S010@S90@S53@S06_avatar/level@=32/sahf@=0/nl@=1/dlv@=3/dc@=2/bdlv@=3/bnn@=\xe9\x98\xbf\xe5\xa6\xb9/bl@=15/brid@=1992245/hc@=f8cf1ba62778e7cb649bcf7c631e5170/el@=eid@AA=1500000003@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@Seid@AA=1500000004@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@Seid@AA=1500000005@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:56:56		弄死我木
+2017-05-29 17:56:57		b'\x1d\x01\x00\x00\x1d\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=99047207/nn@=\xe4\xbd\xa0\xe9\x95\xbf\xe5\xbe\x97\xe9\x82\xa3\xe4\xb9\x88\xe4\xb8\x91l/txt@=\xe5\xbc\x84\xe6\xad\xbb\xe7\xbb\xbf\xe5\x87\xbb\xe6\xaf\x99/cid@=3345005cb3a54076ca790e0000000000/ic@=avanew@Sface@S201702@S20@S03@S120c1c8d40bce246e50ce7bf596a1556/level@=18/sahf@=0/bnn@=131/bl@=4/brid@=69752/hc@=52bbdd2cf86ae72e2adfb0ffedd95cf7/el@=/\x00'
+2017-05-29 17:56:57		弄死绿击毙
+2017-05-29 17:56:58		b'\xe9\x00\x00\x00\xe9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=101619527/nn@=\xe6\xbc\xab\xe6\xad\xa5\xe5\x9c\xa8\xe9\x9b\xa8\xe5\xb7\xb7/ic@=avanew@Sface@S201701@S09@S23@S50267f7695d301a164c05976077c6c72/eid@=0/level@=13/dw@=128797929/hits@=65/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 17:56:58		漫步在雨巷 增送了：193
+2017-05-29 17:56:59		b'\xc5\x00\x00\x00\xc5\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=19191307/nn@=sparksel/txt@=\xe4\xb8\x80\xe7\xb1\xb3\xe4\xba\x94/cid@=3345005cb3a54076cf790e0000000000/ic@=avatar@S019@S19@S13@S07_avatar/level@=16/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:56:59		一米五
+2017-05-29 17:56:59		b'f\x01\x00\x00f\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=2759409/nn@=\xe9\x99\x8815988/txt@=\xe5\xbc\x84\xe6\xad\xbb\xe6\x88\x91\xe6\x9c\xa8\xe3\x80\x82\xe3\x80\x82\xe3\x80\x82\xe6\x89\x8e\xe5\xbf\x83\xe4\xba\x86/cid@=3345005cb3a54076d0790e0000000000/ic@=avanew@Sface@S201705@S16@S09@S77f4c5041fd82c0fb29e73a5c5bb295f/level@=19/sahf@=0/col@=3/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/ifs@=1/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:56:59		弄死我木。。。扎心了
+2017-05-29 17:57:00		b'\xf5\x00\x00\x00\xf5\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=36068614/nn@=\xe9\xa3\x8e\xe5\x9c\xa8\xe5\xad\xa4\xe7\x8b\xac\xe8\x80\x85/txt@=6666666666\xe5\x93\x88\xe6\x9a\xb4\xe9\x9c\xb2\xe4\xba\x86/cid@=3345005cb3a54076d2790e0000000000/ic@=avatar@Sface@S201606@S02@S2b3d82ab439b1463f83ae60e6a7dd329/level@=15/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:57:00		6666666666哈暴露了
+2017-05-29 17:57:01		b'\x16\x01\x00\x00\x16\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=137423526/nn@=\xe5\xbd\x93\xe5\xbd\x92\xe6\x97\xa2\xe5\xa5\xbd/txt@=\xe5\xbc\x84\xe6\xad\xbb\xe6\x88\x91\xe6\x9c\xa8/cid@=3345005cb3a54076d4790e0000000000/ic@=avanew@Sface@S201704@S30@S15@S146e263c9ad77e17b5078e67c10b2635/level@=9/sahf@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=6/brid@=85963/hc@=bb71033f96076163411baba56ac54278/el@=/\x00'
+2017-05-29 17:57:01		弄死我木
+2017-05-29 17:57:02		b'\xec\x00\x00\x00\xec\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=32202932/nn@=Faneli\xe5\x8f\x8c\xe5\xad\x90/txt@=\xe6\x89\x8e\xe5\xbf\x83/cid@=3345005cb3a54076d6790e0000000000/ic@=avanew@Sface@S201702@S08@S02@Sfc1067a8c0bf90542ea99758a06c1e4b/level@=13/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:57:02		扎心
+2017-05-29 17:57:03		b'D\x01\x00\x00D\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=5818442/nn@=\xe4\xbd\xa0\xe5\xbc\x84\xe6\xad\xbb\xe6\x88\x91\xe6\x9c\xa8/txt@=111/cid@=3345005cb3a54076d7790e0000000000/ic@=avanew@Sface@S201611@S15@S12@Sb2070038d9ffc6ad0e81048f6c08c55c/level@=18/sahf@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:57:03		111
+2017-05-29 17:57:06		b'_\x00\x00\x00_\x00\x00\x00\xb2\x02\x00\x00type@=synexp/o_exp@=230031280/o_lev@=38/o_minexp@=206260000/o_upexp@=48720/rid@=85963/\x00'
+2017-05-29 17:57:06		b'\xed\x00\x00\x00\xed\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=20755495/nn@=2623258993/txt@=\xe5\x88\xab\xe7\xbb\x99\xe8\x80\x81\xe5\xa4\xa7\xe4\xb8\xa2\xe4\xba\xba \xe5\x96\x8a\xe4\xbb\x80\xe4\xb9\x88\xe5\x95\x8a \xe5\x82\xbb\xe9\x80\xbc\xe5\x95\x8a/cid@=3345005cb3a54076d9790e0000000000/ic@=avatar@S020@S75@S54@S95_avatar/level@=8/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/p2p@=1/\x00'
+2017-05-29 17:57:06		别给老大丢人 喊什么啊 傻逼啊
+2017-05-29 17:57:07		b'I\x00\x00\x00I\x00\x00\x00\xb2\x02\x00\x00rid@=85963/sc@=160600/sctn@=108500/rid@=85963/type@=qausrespond/\x00'
+2017-05-29 17:57:07		b'\xf5\x00\x00\x00\xf5\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=20419777/nn@=\xe9\x99\x8c\xe4\xb8\x8a\xe5\x8d\x90\xe5\xb0\x91\xe5\xb9\xb4/txt@=\xe8\xbf\x99\xe6\xb0\xb4\xe5\x8f\x8b\xe6\x89\x8e\xe5\xbf\x83\xe4\xba\x86/cid@=3345005cb3a54076db790e0000000000/ic@=avanew@Sface@S201611@S13@S18@Se27618b0d0a90853e4993953a57c7caa/level@=12/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:57:07		这水友扎心了
+2017-05-29 17:57:08		b'\xea\x00\x00\x00\xea\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=2/uid@=18528809/nn@=\xe8\xae\xb8\xe8\x82\xb2\xe9\x91\xab\xe5\x93\xa5/txt@=\xe7\x9b\xb4\xe6\x92\xad\xe6\x90\x9e\xe4\xba\x8b/cid@=3345005cb3a54076dd790e0000000000/ic@=avatar@Sface@S201604@Sea7941940cb9db9d6ffb67dd581ef25d/level@=14/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:57:08		直播搞事
+2017-05-29 17:57:08		b'\xec\x00\x00\x00\xec\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=32202932/nn@=Faneli\xe5\x8f\x8c\xe5\xad\x90/txt@=\xe2\x80\xa6\xe2\x80\xa6/cid@=3345005cb3a54076de790e0000000000/ic@=avanew@Sface@S201702@S08@S02@Sfc1067a8c0bf90542ea99758a06c1e4b/level@=13/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:57:08		……
+2017-05-29 17:57:09		b'\x91\r\x00\x00\x91\r\x00\x00\xb2\x02\x00\x00type@=online_noble_list/num@=24/nl@=uid@AA=30621638@ASnn@AA=MAYDAY\xe4\xb8\xb6\xe5\xb0\x8f\xe4\xba\x94@ASicon@AA=avanew@AASface@AAS201703@AAS28@AAS14@AASa2e3ba3c8a1a9483b7a9b3f60d3491e4@ASne@AA=3@ASlv@AA=59@ASpg@AA=1@ASrg@AA=4@ASsahf@AA=0@AS@Suid@AA=18868644@ASnn@AA=\xe9\xa3\x9f\xe7\xb4\xa0d\xe9\xad\x94\xe7\x8e\x8b@ASicon@AA=avanew@AASface@AAS201703@AAS13@AAS17@AAS5e7d2046003078e032c3e09a51ac44ef@ASne@AA=3@ASlv@AA=42@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=3092564@ASnn@AA=\xe6\x88\x91\xe7\x9a\x84\xe4\xb8\x96\xe7\x95\x8c\xe6\x97\xa0\xe7\x81\xab@ASicon@AA=avanew@AASface@AAS201705@AAS08@AAS22@AAS5432bb81905222862f869e420e598451@ASne@AA=2@ASlv@AA=32@ASpg@AA=1@ASrg@AA=4@ASsahf@AA=0@AS@Suid@AA=9279047@ASnn@AA=\xe6\x9c\x80\xe6\xa2\x97\xe8\xa6\x81\xe5\xbc\x80\xe5\xbf\x83@ASicon@AA=avanew@AASface@AAS201705@AAS14@AAS22@AAS828e1787e9385536efa319ac860b1610@ASne@AA=2@ASlv@AA=28@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=6437975@ASnn@AA=Esura@ASicon@AA=avatar@AAS006@AAS43@AAS79@AAS75_avatar@ASne@AA=1@ASlv@AA=47@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=5590772@ASnn@AA=\xe7\x88\xb1\xe6\x83\x85\xe8\xaf\xa5\xe7\x94\xa8\xe5\xa4\x9a\xe5\xb0\x91\xe5\xad\x97\xe6\x9d\xa5\xe5\xbd\xa2\xe5\xae\xb9@ASicon@AA=avanew@AASface@AAS201705@AAS11@AAS23@AAS38be787d95e4346d6c'
+2017-05-29 17:57:09		b'ca650ddf3781ac@ASne@AA=1@ASlv@AA=41@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=4856977@ASnn@AA=\xe9\xaa\x9a\xe8\xb4\xb0\xe7\xbe\x8a@ASicon@AA=avanew@AASface@AAS201704@AAS08@AAS13@AASb18d2e1c710f0da653838b9f168dc298@ASne@AA=1@ASlv@AA=35@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=90263367@ASnn@AA=\xe6\xb8\xa9\xe6\x9f\x94\xe5\x98\x9f\xe5\x98\x9f@ASicon@AA=avanew@AASface@AAS201704@AAS02@AAS09@AAS16bb2fe5be9943b4d9c6d4ab77c51208@ASne@AA=1@ASlv@AA=35@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=32971968@ASnn@AA=\xe9\x98\xb3\xe7\x97\xbf\xe6\x97\xa9\xe6\xb3\x84\xe6\xbc\x8f\xe6\xb0\x94\xe5\x9b\xa7@ASicon@AA=avanew@AASface@AAS201704@AAS17@AAS22@AAS9b132e8f447650105b5bd03b4ff519ab@ASne@AA=1@ASlv@AA=33@ASpg@AA=1@ASrg@AA=4@ASsahf@AA=0@AS@Suid@AA=19090461@ASnn@AA=90\xe5\xbe\x8c\xe6\x9d\xb0\xe5\x93\xa5\xe5\x93\xa5@ASicon@AA=avatar@AAS019@AAS09@AAS04@AAS61_avatar@ASne@AA=1@ASlv@AA=33@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=59649299@ASnn@AA=\xe6\xb4\x97\xe6\xbe\xa1\xe4\xb8\x8d\xe6\x8d\xa1\xe8\x82\xa5\xe7\x9a\x82@ASicon@AA=avanew@AASface@AAS201702@AAS15@AAS23@AAS544b3115d15a68af5e721f509cff61c2@ASne@AA=1@ASlv@AA=32@ASpg@AA=1@ASrg@AA=4@ASsahf@AA=0@AS@Suid@AA=10905306@ASnn@AA=KangGary\xe4\xb8\xb6@ASicon@AA=avatar@AAS010@AAS90@AAS53@AAS06_avatar@ASn'
+2017-05-29 17:57:09		b'e@AA=1@ASlv@AA=32@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=74727111@ASnn@AA=\xe7\xae\x80\xe8\xa8\x80\xe7\x9a\x84\xe5\xb0\x8f\xe7\x8c\xaa\xe6\xa5\xbc\xe4\xb8\xbb\xe5\xa4\xa7\xe4\xba\xba@ASicon@AA=avanew@AASface@AAS201705@AAS17@AAS00@AAS23c6dfb4eb4207b251bb2e8b930877fe@ASne@AA=1@ASlv@AA=30@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=26566309@ASnn@AA=\xe6\x9c\x88\xe5\xba\x95\xe4\xba\x86\xe6\xb2\xa1\xe9\x92\xb1\xe4\xba\x86@ASicon@AA=avanew@AASface@AAS201705@AAS12@AAS10@AAS0d8d97d5d6f52d49a5bbec15cae1c2eb@ASne@AA=1@ASlv@AA=30@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=26403986@ASnn@AA=\xe6\x97\xa0\xe4\xbd\xb3\xe5\x8f\xaf\xe5\xbd\x92\xe4\xb8\xb6\xe5\xa4\x9a\xe5\xa4\x9a@ASicon@AA=avanew@AASface@AAS201704@AAS08@AAS23@AASc379c4f638f843e5272bc83a9d3532e7@ASne@AA=1@ASlv@AA=30@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=5560775@ASnn@AA=\xe6\x88\x91\xe6\x98\xaf\xe5\xb0\x8f\xe8\x94\xac\xe8\x8f\x9c\xe7\x82\xae\xe5\x93\xa5\xe8\x83\x8c\xe7\xae\x80\xe5\x95\x8a@ASicon@AA=avatar@AASdefault@AAS13@ASne@AA=1@ASlv@AA=27@ASpg@AA=1@ASrg@AA=4@ASsahf@AA=0@AS@Suid@AA=25051865@ASnn@AA=\xe8\xbf\x87\xe8\xa1\x97\xe8\x80\x81\xe9\xbc\xa0\xe4\xb8\xb6\xe4\xb8\x81\xe7\x8b\x97@ASicon@AA=avanew@AASface@AAS201705@AAS14@AAS20@AASbd9afd2054754d0805dbaeb3538acc36@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=4961970@ASnn@AA=\xe7\xb3\xbb\xe6\x97\xb6\xe5\x80\x99\xe6\x94\xb9\xe5\x90\x8d\xe5\x96\x87@ASicon@AA=avanew@AASface@AAS201705@A'
+2017-05-29 17:57:09		b'AS05@AAS21@AASf60e7ff7e8b9ded3ae72f6efbb8eea24@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=273342@ASnn@AA=ZOMG123@ASicon@AA=avatar@AAS000@AAS27@AAS33@AAS42_avatar@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=12060190@ASnn@AA=123\xe4\xb8\xb6\xe5\x88\xab\xe5\x8a\xa8\xe6\x88\x91\xe5\x86\x85\xe8\xa3\xa4@ASicon@AA=avatar@AAS012@AAS06@AAS01@AAS90_avatar@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=4@ASsahf@AA=0@AS@S/rid@=85963/\x00'
+2017-05-29 17:57:10		b'\xc4\x00\x00\x00\xc4\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=38179985/nn@=\xe6\xad\xbb\xe4\xba\xa1\xe4\xb9\x8b\xe7\xbf\xbc\xe7\x9a\x84\xe5\x8a\x9b\xe9\x87\x8f/ic@=avatar@S038@S17@S99@S85_avatar/eid@=0/level@=8/dw@=128797929/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 17:57:10		死亡之翼的力量 增送了：193
+2017-05-29 17:57:11		b'\xc6\x00\x00\x00\xc6\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=4290509/nn@=FantastiBaby/txt@=YG  ne?/cid@=3345005cb3a54076e3790e0000000000/ic@=avatar@S004@S29@S05@S09_avatar/level@=14/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:57:11		YG  ne?
+2017-05-29 17:57:11		b'\xd6\x00\x00\x00\xd6\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=28595404/nn@=1443529436/txt@=\xe5\xb0\x8f\xe5\xbf\x83\xe5\xa6\xae\xe5\x8f\xaf\xe6\x8f\x8d\xe4\xbd\xa0/cid@=3345005cb3a54076e4790e0000000000/ic@=avatar@S028@S59@S54@S04_avatar/level@=15/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:57:11		小心妮可揍你
+2017-05-29 17:57:12		b'\xb0\x00\x00\x00\xb0\x00\x00\x00\xb2\x02\x00\x00type@=uenter/rid@=85963/uid@=25051865/nn@=\xe8\xbf\x87\xe8\xa1\x97\xe8\x80\x81\xe9\xbc\xa0\xe4\xb8\xb6\xe4\xb8\x81\xe7\x8b\x97/level@=26/ic@=avanew@Sface@S201705@S14@S20@Sbd9afd2054754d0805dbaeb3538acc36/nl@=1/rni@=0/el@=/sahf@=0/\x00'
+2017-05-29 17:57:12		b'\xcc\x00\x00\x00\xcc\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=38179985/nn@=\xe6\xad\xbb\xe4\xba\xa1\xe4\xb9\x8b\xe7\xbf\xbc\xe7\x9a\x84\xe5\x8a\x9b\xe9\x87\x8f/ic@=avatar@S038@S17@S99@S85_avatar/eid@=0/level@=8/dw@=128797929/hits@=2/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 17:57:12		死亡之翼的力量 增送了：193
+2017-05-29 17:57:13		b'@\x00\x00\x00@\x00\x00\x00\xb2\x02\x00\x00type@=keeplive/tick@=1496051832/uc@=32529/rap@=7987214/\x00'
+2017-05-29 17:57:13		b'~\x00\x00\x00~\x00\x00\x00\xb2\x02\x00\x00type@=uenter/rid@=85963/uid@=1891251/nn@=\xe4\xb8\x8d\xe6\x9c\x8d\xe4\xbd\xa0\xe6\x9d\xa5\xe5\xa4\xa7\xe5\x93\xad\xe6\x88\x91/level@=30/ic@=avatar@Sdefault@S12/rni@=0/el@=/sahf@=0/\x00'
+2017-05-29 17:57:14		b':\x01\x00\x00:\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=40052048/nn@=\xe7\x82\x9c\xe7\x82\x9c\xe6\xa3\x92\xe6\xa3\x92\xe4\xb9\x88\xe4\xb9\x88\xe5\x93\x92/txt@=\xe9\xbb\x8e\xe6\x98\x8e\xe6\x9d\x80\xe6\x9c\xba\xe5\x8f\xaa\xe6\x9c\x8d\xe5\xb0\x8f6/cid@=3345005cb3a54076e6790e0000000000/ic@=avanew@Sface@S201702@S09@S15@S5d3fe9c186834fd0d4aa14fc8fd5a50d/level@=17/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:57:14		黎明杀机只服小6
+2017-05-29 17:57:14		b'\\\x01\x00\x00\\\x01\x00\x00\xb2\x02\x00\x00type@=uenter/rid@=85963/uid@=17623012/nn@=\xe5\x8f\xa4\xe6\x9d\xa5\xe4\xb8\x89\xe4\xba\x94\xe4\xb8\xaa\xe8\x8b\xb1\xe9\x9b\x84/level@=25/rg@=4/dlv@=3/dc@=1/bdlv@=3/ic@=avatar@Sface@S201605@S779b78c0f0731281d809ef0627303aff/rni@=0/el@=eid@AA=1500000004@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@Seid@AA=1500000005@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@Seid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/sahf@=0/\x00'
+2017-05-29 17:57:16		b'\xda\x00\x00\x00\xda\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=11236751/nn@=\xe6\x88\x91\xe7\x9a\x84\xe8\x90\x8c\xe6\xaf\x94\xe4\xbc\x9a\xe6\x94\xbe\xe7\x94\xb5/txt@=\xe5\x8d\x81\xe4\xb8\x89\xe5\xa7\xa8\xe5\x98\x9e/cid@=3345005cb3a54076e8790e0000000000/ic@=avatar@S011@S23@S67@S51_avatar/level@=5/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:57:16		十三姨嘞
+2017-05-29 17:57:16		b'\xcc\x00\x00\x00\xcc\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=38179985/nn@=\xe6\xad\xbb\xe4\xba\xa1\xe4\xb9\x8b\xe7\xbf\xbc\xe7\x9a\x84\xe5\x8a\x9b\xe9\x87\x8f/ic@=avatar@S038@S17@S99@S85_avatar/eid@=0/level@=8/dw@=128797929/hits@=3/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 17:57:16		死亡之翼的力量 增送了：193
+2017-05-29 17:57:16		b'\xd9\x00\x00\x00\xd9\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=2/uid@=5845309/nn@=\xe5\x91\xbd\xe8\xbf\x90\xe6\xbd\x9c\xe8\xa1\x8c/txt@=ID\xe5\xa5\xb3\xe6\x88\xbf\xe7\xae\xa1\xe6\x8c\xba\xe6\xbc\x82\xe4\xba\xae/cid@=3345005cb3a54076e9790e0000000000/ic@=avatar@S005@S84@S53@S09_avatar/level@=16/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 17:57:16		ID女房管挺漂亮
+2017-05-29 17:57:17		b'_\x00\x00\x00_\x00\x00\x00\xb2\x02\x00\x00type@=synexp/o_exp@=230031880/o_lev@=38/o_minexp@=206260000/o_upexp@=48120/rid@=85963/\x00'
+2017-05-29 17:57:17		b'%\x01\x00\x00%\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=9327947/nn@=\xe5\x81\xb6\xe4\xb9\x9f\xe7\x94\xa8\xe9\xa3\x98\xe6\x9f\x94/txt@=\xe8\x80\x81\xe5\xa4\xa7\xe6\x98\xaf\xe8\xb0\x81/cid@=3345005cb3a54076eb790e0000000000/ic@=avatar@Sface@S201608@S02@S58c3d95032e2b35bb1abaa192a3510b9/level@=16/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 17:57:17		老大是谁
+2017-05-29 17:57:18		b'\xef\x00\x00\x00\xef\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=27114675/nn@=SuperJz/txt@=\xe6\x89\x93\xe8\xb5\xb7\xe6\x9d\xa5\xef\xbc\x81/cid@=3345005cb3a54076ec790e0000000000/ic@=avatar@Sdefault@S04/level@=21/sahf@=0/bdlv@=3/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=10/brid@=85963/hc@=bb71033f96076163411baba56ac54278/el@=/\x00'
+2017-05-29 17:57:18		打起来！
+2017-05-29 17:57:19		b'.\x01\x00\x00.\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=71675085/nn@=\xe4\xbd\xa0\xe7\x8c\x9cWhoami/txt@=\xe4\xb8\x8d\xe6\x98\xaf\xe7\xa6\x81\xe6\x92\xad\xe4\xba\x86\xe5\x90\x97/cid@=3345005cb3a54076ed790e0000000000/ic@=avanew@Sface@S201704@S16@S23@S9cdf3f3f423c7c195a828c3d97d4de30/level@=12/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/p2p@=1/\x00'
+2017-05-29 17:57:19		不是禁播了吗
+2017-05-29 17:57:19		b'\xe6\n\x00\x00\xe6\n\x00\x00\xb2\x02\x00\x00type@=online_noble_list/num@=16/nl@=uid@AA=9279047@ASnn@AA=\xe6\x9c\x80\xe6\xa2\x97\xe8\xa6\x81\xe5\xbc\x80\xe5\xbf\x83@ASicon@AA=avanew@AASface@AAS201705@AAS14@AAS22@AAS828e1787e9385536efa319ac860b1610@ASne@AA=2@ASlv@AA=28@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=4856977@ASnn@AA=\xe9\xaa\x9a\xe8\xb4\xb0\xe7\xbe\x8a@ASicon@AA=avanew@AASface@AAS201704@AAS08@AAS13@AASb18d2e1c710f0da653838b9f168dc298@ASne@AA=1@ASlv@AA=35@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=90263367@ASnn@AA=\xe6\xb8\xa9\xe6\x9f\x94\xe5\x98\x9f\xe5\x98\x9f@ASicon@AA=avanew@AASface@AAS201704@AAS02@AAS09@AAS16bb2fe5be9943b4d9c6d4ab77c51208@ASne@AA=1@ASlv@AA=35@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=32971968@ASnn@AA=\xe9\x98\xb3\xe7\x97\xbf\xe6\x97\xa9\xe6\xb3\x84\xe6\xbc\x8f\xe6\xb0\x94\xe5\x9b\xa7@ASicon@AA=avanew@AASface@AAS201704@AAS17@AAS22@AAS9b132e8f447650105b5bd03b4ff519ab@ASne@AA=1@ASlv@AA=33@ASpg@AA=1@ASrg@AA=4@ASsahf@AA=0@AS@Suid@AA=19090461@ASnn@AA=90\xe5\xbe\x8c\xe6\x9d\xb0\xe5\x93\xa5\xe5\x93\xa5@ASicon@AA=avatar@AAS019@AAS09@AAS04@AAS61_avatar@ASne@AA=1@ASlv@AA=33@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=59649299@ASnn@AA=\xe6\xb4\x97\xe6\xbe\xa1\xe4\xb8\x8d\xe6\x8d\xa1\xe8\x82\xa5\xe7\x9a\x82@ASicon@AA=avanew@AASface@AAS201702@AAS15@AAS23@AAS544b3115d15a68af5e721f5'
+2017-05-29 17:57:19		b'09cff61c2@ASne@AA=1@ASlv@AA=32@ASpg@AA=1@ASrg@AA=4@ASsahf@AA=0@AS@Suid@AA=10905306@ASnn@AA=KangGary\xe4\xb8\xb6@ASicon@AA=avatar@AAS010@AAS90@AAS53@AAS06_avatar@ASne@AA=1@ASlv@AA=32@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=74727111@ASnn@AA=\xe7\xae\x80\xe8\xa8\x80\xe7\x9a\x84\xe5\xb0\x8f\xe7\x8c\xaa\xe6\xa5\xbc\xe4\xb8\xbb\xe5\xa4\xa7\xe4\xba\xba@ASicon@AA=avanew@AASface@AAS201705@AAS17@AAS00@AAS23c6dfb4eb4207b251bb2e8b930877fe@ASne@AA=1@ASlv@AA=30@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=26566309@ASnn@AA=\xe6\x9c\x88\xe5\xba\x95\xe4\xba\x86\xe6\xb2\xa1\xe9\x92\xb1\xe4\xba\x86@ASicon@AA=avanew@AASface@AAS201705@AAS12@AAS10@AAS0d8d97d5d6f52d49a5bbec15cae1c2eb@ASne@AA=1@ASlv@AA=30@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=26403986@ASnn@AA=\xe6\x97\xa0\xe4\xbd\xb3\xe5\x8f\xaf\xe5\xbd\x92\xe4\xb8\xb6\xe5\xa4\x9a\xe5\xa4\x9a@ASicon@AA=avanew@AASface@AAS201704@AAS08@AAS23@AASc379c4f638f843e5272bc83a9d3532e7@ASne@AA=1@ASlv@AA=30@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=5560775@ASnn@AA=\xe6\x88\x91\xe6\x98\xaf\xe5\xb0\x8f\xe8\x94\xac\xe8\x8f\x9c\xe7\x82\xae\xe5\x93\xa5\xe8\x83\x8c\xe7\xae\x80\xe5\x95\x8a@ASicon@AA=avatar@AASdefault@AAS13@ASne@AA=1@ASlv@AA=27@ASpg@AA=1@ASrg@AA=4@ASsahf@AA=0@AS@Suid@AA=25051865@ASnn@AA=\xe8\xbf\x87\xe8\xa1\x97\xe8\x80\x81\xe9\xbc\xa0\xe4\xb8\xb6\xe4\xb8\x81\xe7\x8b\x97@ASicon@AA=avanew@AASface@AAS201705@AAS14@AAS20@AASbd9afd2054754'
+2017-05-29 17:57:19		b'd0805dbaeb3538acc36@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=4961970@ASnn@AA=\xe7\xb3\xbb\xe6\x97\xb6\xe5\x80\x99\xe6\x94\xb9\xe5\x90\x8d\xe5\x96\x87@ASicon@AA=avanew@AASface@AAS201705@AAS05@AAS21@AASf60e7ff7e8b9ded3ae72f6efbb8eea24@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=273342@ASnn@AA=ZOMG123@ASicon@AA=avatar@AAS000@AAS27@AAS33@AAS42_avatar@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=12060190@ASnn@AA=123\xe4\xb8\xb6\xe5\x88\xab\xe5\x8a\xa8\xe6\x88\x91\xe5\x86\x85\xe8\xa3\xa4@ASicon@AA=avatar@AAS012@AAS06@AAS01@AAS90_avatar@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=4@ASsahf@AA=0@AS@Suid@AA=33498531@ASnn@AA=\xe5\x9b\xbd\xe6\x9c\x8d\xe7\xac\xac\xe4\xba\x8c\xe9\x93\xb2\xe5\xb1\x8e\xe5\xae\x98@ASicon@AA=avanew@AASface@AAS201612@AAS29@AAS23@AASfa1d940aa892d0465930f0852b40aad0@ASne@AA=1@ASlv@AA=22@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@S/rid@=85963/\x00'
+2017-05-29 17:57:19		b'\xcc\x00\x00\x00\xcc\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=38179985/nn@=\xe6\xad\xbb\xe4\xba\xa1\xe4\xb9\x8b\xe7\xbf\xbc\xe7\x9a\x84\xe5\x8a\x9b\xe9\x87\x8f/ic@=avatar@S038@S17@S99@S85_avatar/eid@=0/level@=8/dw@=128797929/hits@=4/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 17:57:19		死亡之翼的力量 增送了：193
+2017-05-29 17:57:19		b';\x01\x00\x00;\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=2/uid@=25994447/nn@=\xe8\xb7\x9f\xe5\xbd\xa9\xe8\x99\xb9\xe8\xaf\xb4\xe6\x97\xa9\xe5\xae\x89/txt@=\xe5\xaf\xb9\xe9\x9d\xa2\xe7\xa9\xbf\xe5\x92\x8c\xe6\x9c\x8d\xe7\x9a\x84\xe6\x98\xaf\xe9\x82\xa3\xe4\xb8\xaa\xe4\xb8\xbb\xe6\x92\xad/cid@=3345005cb3a54076ee790e0000000000/ic@=avanew@Sface@S201704@S29@S18@S45cca2f02b6c3d0bc4ca3a897776345b/level@=11/sahf@=0/bnn@=\xe7\x93\x9c\xe7\x9a\xae\xe7\xbe\x8e/bl@=3/brid@=539270/hc@=d00fcc299f69bdc3fd93bb59d2edbbf0/el@=/\x00'
+2017-05-29 17:57:19		对面穿和服的是那个主播
+2017-05-29 18:09:05		请求网页内容...
+2017-05-29 18:09:05		获取房间信息...
+2017-05-29 18:09:05		房间名:武汉斗鱼嘉年华 又是膨胀的一天		|		主播:主播温州炮哥
+2017-05-29 18:09:05		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:09:06		连接成功,发送登录请求...
+2017-05-29 18:09:06		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3623754336/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:09:06		登录成功
+2017-05-29 18:09:06		进入弹幕服务器...
+2017-05-29 18:09:06		心跳包机制启动...
+2017-05-29 18:09:06		监听中
+2017-05-29 18:09:06		甜心~~
+2017-05-29 18:09:06		来了
+2017-05-29 18:09:06		大大大大大大大大大大
+2017-05-29 18:09:07		出去一下啊
+2017-05-29 18:09:07		大大大大
+2017-05-29 18:09:08		甜心，小杰呢
+2017-05-29 18:09:08		快去接她啊。。。
+2017-05-29 18:09:09		？？？？？
+2017-05-29 18:09:10		小桀呢
+2017-05-29 18:09:10		大大大
+2017-05-29 18:09:11		领导在来的路上。你看着外面
+2017-05-29 18:09:11		出去啊
+2017-05-29 18:09:12		出去接
+2017-05-29 18:09:13		甜心
+2017-05-29 18:09:14		壮士
+2017-05-29 18:09:16		大大大
+2017-05-29 18:09:16		甜心终于来了
+2017-05-29 18:09:16		小杰绿了
+2017-05-29 18:09:16		大大大
+2017-05-29 18:09:17		甜心壮士
+2017-05-29 18:09:17		甜心美美美
+2017-05-29 18:09:17		并不需要什么名字 增送了：192
+2017-05-29 18:09:17		美美美美美美美美美美
+2017-05-29 18:09:17		他在外面
+2017-05-29 18:09:17		简言来了
+2017-05-29 18:09:17		并不需要什么名字 增送了：192
+2017-05-29 18:09:17		Joway930804 增送了：520
+2017-05-29 18:09:18		甜心壮士
+2017-05-29 18:09:18		？？？？
+2017-05-29 18:09:18		甜心壮士
+2017-05-29 18:09:19		胖胖胖
+2017-05-29 18:09:19		胖胖
+2017-05-29 18:09:19		大大大大大大大
+2017-05-29 18:09:19		大大大大大大大大大大
+2017-05-29 18:09:20		扎心炮中出绿卡 增送了：193
+2017-05-29 18:09:20		扎心炮中出绿卡 增送了：193
+2017-05-29 18:09:20		胖甜
+2017-05-29 18:09:20		扎心炮中出绿卡 增送了：193
+2017-05-29 18:09:20		甜心壮士
+2017-05-29 18:09:20		甜胖！！！
+2017-05-29 18:09:21		你注意以下外面
+2017-05-29 18:09:21		大大大大大
+2017-05-29 18:09:21		[emot:dy007]舌甘
+2017-05-29 18:09:21		大大大大大大大大
+2017-05-29 18:09:21		66666666666
+2017-05-29 18:09:21		舌甘月半
+2017-05-29 18:09:22		挡酒战士
+2017-05-29 18:09:22		扎心炮中出绿卡 增送了：192
+2017-05-29 18:09:22		扎心炮中出绿卡 增送了：192
+2017-05-29 18:09:22		扎心炮中出绿卡 增送了：192
+2017-05-29 18:09:22		扎心炮中出绿卡 增送了：192
+2017-05-29 18:14:09		请求网页内容...
+2017-05-29 18:14:10		获取房间信息...
+2017-05-29 18:14:10		房间名:武汉斗鱼嘉年华 又是膨胀的一天		|		主播:主播温州炮哥
+2017-05-29 18:14:10		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:14:10		连接成功,发送登录请求...
+2017-05-29 18:14:10		Received from login		b'\xed\x00\x00\x00\xed\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=637691008/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:14:10		登录成功
+2017-05-29 18:14:10		进入弹幕服务器...
+2017-05-29 18:14:10		心跳包机制启动...
+2017-05-29 18:14:10		监听中
+2017-05-29 18:14:10		7夕丶Leciel 增送了：713
+2017-05-29 18:14:11		7夕丶Leciel 增送了：713
+2017-05-29 18:14:12		7夕丶Leciel 增送了：713
+2017-05-29 18:14:12		ljw13648826474 增送了：714
+2017-05-29 18:14:12		ljw13648826474 增送了：714
+2017-05-29 18:14:12		ljw13648826474 增送了：714
+2017-05-29 18:14:13		ljw13648826474 增送了：714
+2017-05-29 18:14:13		7夕丶Leciel 增送了：714
+2017-05-29 18:14:13		7夕丶Leciel 增送了：714
+2017-05-29 18:17:06		请求网页内容...
+2017-05-29 18:17:06		获取房间信息...
+2017-05-29 18:17:06		房间名:武汉斗鱼嘉年华 又是膨胀的一天		|		主播:主播温州炮哥
+2017-05-29 18:17:06		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:17:07		连接成功,发送登录请求...
+2017-05-29 18:17:07		Received from login		b'\xed\x00\x00\x00\xed\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=637005296/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:17:07		登录成功
+2017-05-29 18:17:07		进入弹幕服务器...
+2017-05-29 18:17:07		心跳包机制启动...
+2017-05-29 18:17:07		监听中
+2017-05-29 18:17:39		b'\xef\x00\x00\x00\xef\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:40		b'\xf7\x00\x00\x00\xf7\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=2/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:40		b'\xf7\x00\x00\x00\xf7\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=3/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:40		b'\xf7\x00\x00\x00\xf7\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=5/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=uenter/rid@=85963/uid@=35027138/nn@=\xe5\xbe\x80\xe4\xba\x8b\xe9\x9a\x8f\xe6\xb0\xb4\xe6\xb5\x81/level@=20/dlv@=1/dc@=1/bdlv@=1/ic@=avanew@Sface@S201704@S24@S11@Sd9580c50768089a4e9da77c152a82aa1/rni@=0/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/sahf@=0/\x00b\x00\x00\x00b\x00\x00\x00\xb2\x02\x00\x00type@=synexp/o_exp@=230703280/o_lev@=39/o_minexp@=230080000/o_upexp@=25096720/rid@=85963/\x00\xca\x00\x00\x00\xca\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/ct@=1/uid@=52371529/nn@=\xe6\xa3\x92\xe6\xa3\x92\xe7\xb3\x96123321/txt@=\xe9\xab\x98\xe4\xbb\xbf\xe5\xa4\xa7\xe6\xb0\x94/cid@=3345005cb3a540762f8b0e0000000000/ic@=avatar@Sdefault@S03/level@=13/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 18:17:42		b'\xf7\x00\x00\x00\xf7\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=6/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00\xf7\x00\x00\x00\xf7\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=7/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:43		b'\xf7\x00\x00\x00\xf7\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=8/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:43		b'\xf7\x00\x00\x00\xf7\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=9/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:43		b'\xf8\x00\x00\x00\xf8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=11/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:44		b'\xf8\x00\x00\x00\xf8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=12/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:44		b'\xf8\x00\x00\x00\xf8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=13/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:45		b'\xf8\x00\x00\x00\xf8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=14/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:45		b'\xf8\x00\x00\x00\xf8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=15/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:45		b'\xf8\x00\x00\x00\xf8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=16/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:45		b'\xf8\x00\x00\x00\xf8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=17/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:46		b'\xf8\x00\x00\x00\xf8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=18/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:46		b'\xf8\x00\x00\x00\xf8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=19/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:17:46		b'\xf8\x00\x00\x00\xf8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=33571984/nn@=\xe6\xbb\x91\xe6\xba\x9c\xe6\xba\x9c\xe7\x9a\x84\xe4\xb9\x84\xe5\xb8\x83\xe4\xb8\x81/ic@=avatar@S033@S57@S19@S84_avatar/eid@=0/level@=23/dw@=128809029/hits@=20/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=7/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:23:45		请求网页内容...
+2017-05-29 18:23:46		获取房间信息...
+2017-05-29 18:23:46		房间名:武汉斗鱼嘉年华 又是膨胀的一天		|		主播:主播温州炮哥
+2017-05-29 18:23:46		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:23:46		连接成功,发送登录请求...
+2017-05-29 18:23:46		Received from login		b'\xed\x00\x00\x00\xed\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=632405264/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:23:46		登录成功
+2017-05-29 18:23:46		进入弹幕服务器...
+2017-05-29 18:23:46		心跳包机制启动...
+2017-05-29 18:23:46		监听中
+2017-05-29 18:25:46		请求网页内容...
+2017-05-29 18:25:47		获取房间信息...
+2017-05-29 18:25:47		房间名:武汉斗鱼嘉年华 又是膨胀的一天		|		主播:主播温州炮哥
+2017-05-29 18:25:47		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:25:47		连接成功,发送登录请求...
+2017-05-29 18:25:48		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2930994288/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:25:48		登录成功
+2017-05-29 18:25:48		进入弹幕服务器...
+2017-05-29 18:25:48		心跳包机制启动...
+2017-05-29 18:25:48		监听中
+2017-05-29 18:25:48				_________解析礼物信息失败:b'\x18\x01\x00\x00\x18\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=8/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:49				_________解析礼物信息失败:b'\x18\x01\x00\x00\x18\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=9/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:49				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=11/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:50				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=12/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:50				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=13/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=14/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:50				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=15/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:51				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=16/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=17/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:51				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=18/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:51				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=19/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:51				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=20/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:51				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=21/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:51				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=22/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:52				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=23/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:52				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=24/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:52				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=25/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:52				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=26/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:53				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=27/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:53				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=28/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:53				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=29/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:25:54				_________解析礼物信息失败:b'\x19\x01\x00\x00\x19\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=542083/nn@=\xe6\x83\xb3\xe5\x90\x83\xe7\x8b\x97\xe7\xb2\xae\xe4\xba\x8c\xe5\x8d\x81/ic@=avanew@Sface@S201610@S14@S20@Se936becdb4f2d9c1d44ee2ec6d19a4a0/eid@=0/level@=32/dw@=128809029/hits@=30/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=9/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:22		请求网页内容...
+2017-05-29 18:26:22		获取房间信息...
+2017-05-29 18:26:22		房间名:武汉斗鱼嘉年华 又是膨胀的一天		|		主播:主播温州炮哥
+2017-05-29 18:26:22		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:26:22		连接成功,发送登录请求...
+2017-05-29 18:26:22		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3137193664/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:26:22		登录成功
+2017-05-29 18:26:22		进入弹幕服务器...
+2017-05-29 18:26:22		心跳包机制启动...
+2017-05-29 18:26:22		监听中
+2017-05-29 18:26:35				_________解析礼物信息失败:b'\xb0\x00\x00\x00\xb0\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=67130840/nn@=maomaosky520/ic@=avatar@Sdefault@S02/eid@=0/level@=8/dw@=128809029/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 18:26:36				_________解析礼物信息失败:b'\xf1\x00\x00\x00\xf1\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:36				_________解析礼物信息失败:b'\xb8\x00\x00\x00\xb8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=67130840/nn@=maomaosky520/ic@=avatar@Sdefault@S02/eid@=0/level@=8/dw@=128809029/hits@=2/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 18:26:36				_________解析礼物信息失败:b'S@Seid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00\xf9\x00\x00\x00\xf9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=3/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00"\x01\x00\x00"\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=85963/uid@=15844684/nn@=13570284363/txt@=[emot:dy007]\xe6\xac\xba\xe8\xb4\x9f\xe8\x88\x8c\xe7\x94\x98/cid@=3345005cb3a5407690920e0000000000/ic@=avanew@Sface@S201701@S24@S13@S10160a2eec5bc19e35ccc43d6b061a6a/level@=15/sahf@=0/bnn@=\xe8\x88\x8c\xe7\x94\x98/bl@=8/brid@=242045/hc@=4342cee0605044069c4e8b597ab58876/el@=/\x00'
+2017-05-29 18:26:37				_________解析礼物信息失败:b'\xf9\x00\x00\x00\xf9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=4/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:37				_________解析礼物信息失败:b'\xf9\x00\x00\x00\xf9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=5/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:37				_________解析礼物信息失败:b'\xb8\x00\x00\x00\xb8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=67130840/nn@=maomaosky520/ic@=avatar@Sdefault@S02/eid@=0/level@=8/dw@=128809029/hits@=3/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00Z\x00\x00\x00Z\x00\x00\x00\xb2\x02\x00\x00rid@=85963/type@=ubsc/bc@=142860/bts@=0/bct@=0/tse@=0/cse@=0/gfid@=0/an@=profess/\x00'
+2017-05-29 18:26:37				_________解析礼物信息失败:b'\xf9\x00\x00\x00\xf9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=6/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:37				_________解析礼物信息失败:b'\xf9\x00\x00\x00\xf9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=7/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:37				_________解析礼物信息失败:b'\xf9\x00\x00\x00\xf9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=8/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:38				_________解析礼物信息失败:b'\xf9\x00\x00\x00\xf9\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=9/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:38				_________解析礼物信息失败:b'\xfa\x00\x00\x00\xfa\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=10/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00\xb8\x00\x00\x00\xb8\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=193/gs@=3/uid@=67130840/nn@=maomaosky520/ic@=avatar@Sdefault@S02/eid@=0/level@=8/dw@=128809029/hits@=4/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00Z\x00\x00\x00Z\x00\x00\x00\xb2\x02\x00\x00rid@=85963/type@=ubsc/bc@=142880/bts@=0/bct@=0/tse@=0/cse@=0/gfid@=0/an@=profess/\x00'
+2017-05-29 18:26:38				_________解析礼物信息失败:b'\xfa\x00\x00\x00\xfa\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=11/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:38				_________解析礼物信息失败:b'\xfa\x00\x00\x00\xfa\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=12/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:38				_________解析礼物信息失败:b'\xfa\x00\x00\x00\xfa\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=13/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:39				_________解析礼物信息失败:b'\xfa\x00\x00\x00\xfa\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=14/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:39				_________解析礼物信息失败:b'\xfa\x00\x00\x00\xfa\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=824/gs@=2/uid@=11774798/nn@=\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe5\x8d\xb7\xe6\xaf\x9bTR/ic@=avatar@S011@S77@S47@S98_avatar/eid@=0/level@=33/dw@=128809029/hits@=15/rg@=4/ct@=0/cm@=0/bnn@=\xe5\x87\xbb\xe6\xaf\x99/bl@=3/brid@=85963/hc@=bb71033f96076163411baba56ac54278/sahf@=0/\x00'
+2017-05-29 18:26:40				_________解析礼物信息失败:b'\xb0\x00\x00\x00\xb0\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=85963/gfid@=192/gs@=2/uid@=67130840/nn@=maomaosky520/ic@=avatar@Sdefault@S02/eid@=0/level@=8/dw@=128809029/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 18:27:18		请求网页内容...
+2017-05-29 18:27:18		获取房间信息...
+2017-05-29 18:27:18		房间名:武汉斗鱼嘉年华 又是膨胀的一天		|		主播:主播温州炮哥
+2017-05-29 18:27:18		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:27:18		连接成功,发送登录请求...
+2017-05-29 18:27:18		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2903519232/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:27:18		登录成功
+2017-05-29 18:27:18		进入弹幕服务器...
+2017-05-29 18:27:18		心跳包机制启动...
+2017-05-29 18:27:19		监听中
+2017-05-29 18:27:29		请求网页内容...
+2017-05-29 18:27:29		请求网页内容...
+2017-05-29 18:27:30		获取房间信息...
+2017-05-29 18:27:30		房间名:武汉斗鱼嘉年华 又是膨胀的一天		|		主播:主播温州炮哥
+2017-05-29 18:27:30		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:27:30		连接成功,发送登录请求...
+2017-05-29 18:27:30		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2307001840/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:27:30		登录成功
+2017-05-29 18:27:30		进入弹幕服务器...
+2017-05-29 18:27:30		心跳包机制启动...
+2017-05-29 18:27:30		获取房间信息...
+2017-05-29 18:27:30		房间名:武汉斗鱼嘉年华 又是膨胀的一天		|		主播:主播温州炮哥
+2017-05-29 18:27:30		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:27:30		监听中
+2017-05-29 18:27:33		连接成功,发送登录请求...
+2017-05-29 18:27:33		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3558524672/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:27:33		登录成功
+2017-05-29 18:27:33		进入弹幕服务器...
+2017-05-29 18:27:33		心跳包机制启动...
+2017-05-29 18:27:33		监听中
+2017-05-29 18:28:10		请求网页内容...
+2017-05-29 18:28:10		获取房间信息...
+2017-05-29 18:28:10		房间名:霹雳Man现身嘉年华！		|		主播:霹雳爷们儿
+2017-05-29 18:28:10		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:28:10		连接成功,发送登录请求...
+2017-05-29 18:28:10		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3130855072/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:28:10		登录成功
+2017-05-29 18:28:10		进入弹幕服务器...
+2017-05-29 18:28:10		心跳包机制启动...
+2017-05-29 18:28:10		监听中
+2017-05-29 18:28:25		请求网页内容...
+2017-05-29 18:28:26		获取房间信息...
+2017-05-29 18:28:26		房间名:霹雳Man现身嘉年华！		|		主播:霹雳爷们儿
+2017-05-29 18:28:26		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:28:26		连接成功,发送登录请求...
+2017-05-29 18:28:26		Received from login		b'\xed\x00\x00\x00\xed\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=605275104/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:28:26		登录成功
+2017-05-29 18:28:26		进入弹幕服务器...
+2017-05-29 18:28:26		心跳包机制启动...
+2017-05-29 18:28:26		监听中
+2017-05-29 18:28:33		请求网页内容...
+2017-05-29 18:28:33		获取房间信息...
+2017-05-29 18:28:33		房间名:霹雳Man现身嘉年华！		|		主播:霹雳爷们儿
+2017-05-29 18:28:33		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:28:33		连接成功,发送登录请求...
+2017-05-29 18:28:33		Received from login		b'\xed\x00\x00\x00\xed\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=605268064/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:28:33		登录成功
+2017-05-29 18:28:33		进入弹幕服务器...
+2017-05-29 18:28:33		心跳包机制启动...
+2017-05-29 18:28:33		监听中
+2017-05-29 18:28:41		请求网页内容...
+2017-05-29 18:28:41		获取房间信息...
+2017-05-29 18:28:41		房间名:霹雳Man现身嘉年华！		|		主播:霹雳爷们儿
+2017-05-29 18:28:41		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:28:41		连接成功,发送登录请求...
+2017-05-29 18:28:41		Received from login		b'\xed\x00\x00\x00\xed\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=625755200/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:28:41		登录成功
+2017-05-29 18:28:41		进入弹幕服务器...
+2017-05-29 18:28:41		心跳包机制启动...
+2017-05-29 18:28:41		监听中
+2017-05-29 18:28:43				_________解析礼物信息失败:b'\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=274874/gfid@=824/gs@=2/uid@=18322856/nn@=1245845/ic@=avatar@S018@S32@S28@S56_avatar/eid@=0/level@=25/dw@=179906406/ct@=0/cm@=0/bnn@=\xe9\x9c\xb9\xe9\x9b\xb3/bl@=7/brid@=274874/hc@=a920350b8527fa101ccbdc0251a9b14e/sahf@=0/\x00'
+2017-05-29 18:28:44				_________解析礼物信息失败:b'\xeb\x00\x00\x00\xeb\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=274874/gfid@=824/gs@=2/uid@=18322856/nn@=1245845/ic@=avatar@S018@S32@S28@S56_avatar/eid@=0/level@=25/dw@=179906406/hits@=2/ct@=0/cm@=0/bnn@=\xe9\x9c\xb9\xe9\x9b\xb3/bl@=7/brid@=274874/hc@=a920350b8527fa101ccbdc0251a9b14e/sahf@=0/\x00'
+2017-05-29 18:28:44				_________解析礼物信息失败:b'\xeb\x00\x00\x00\xeb\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=274874/gfid@=824/gs@=2/uid@=18322856/nn@=1245845/ic@=avatar@S018@S32@S28@S56_avatar/eid@=0/level@=25/dw@=179906406/hits@=3/ct@=0/cm@=0/bnn@=\xe9\x9c\xb9\xe9\x9b\xb3/bl@=7/brid@=274874/hc@=a920350b8527fa101ccbdc0251a9b14e/sahf@=0/\x00'
+2017-05-29 18:28:44				_________解析礼物信息失败:b'\xeb\x00\x00\x00\xeb\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=274874/gfid@=824/gs@=2/uid@=18322856/nn@=1245845/ic@=avatar@S018@S32@S28@S56_avatar/eid@=0/level@=25/dw@=179906406/hits@=4/ct@=0/cm@=0/bnn@=\xe9\x9c\xb9\xe9\x9b\xb3/bl@=7/brid@=274874/hc@=a920350b8527fa101ccbdc0251a9b14e/sahf@=0/\x00'
+2017-05-29 18:28:44				_________解析礼物信息失败:b'\xeb\x00\x00\x00\xeb\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=274874/gfid@=824/gs@=2/uid@=18322856/nn@=1245845/ic@=avatar@S018@S32@S28@S56_avatar/eid@=0/level@=25/dw@=179906406/hits@=5/ct@=0/cm@=0/bnn@=\xe9\x9c\xb9\xe9\x9b\xb3/bl@=7/brid@=274874/hc@=a920350b8527fa101ccbdc0251a9b14e/sahf@=0/\x00'
+2017-05-29 18:28:45				_________解析礼物信息失败:b'\xeb\x00\x00\x00\xeb\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=274874/gfid@=824/gs@=2/uid@=18322856/nn@=1245845/ic@=avatar@S018@S32@S28@S56_avatar/eid@=0/level@=25/dw@=179906406/hits@=6/ct@=0/cm@=0/bnn@=\xe9\x9c\xb9\xe9\x9b\xb3/bl@=7/brid@=274874/hc@=a920350b8527fa101ccbdc0251a9b14e/sahf@=0/\x00'
+2017-05-29 18:28:45				_________解析礼物信息失败:b'\xeb\x00\x00\x00\xeb\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=274874/gfid@=824/gs@=2/uid@=18322856/nn@=1245845/ic@=avatar@S018@S32@S28@S56_avatar/eid@=0/level@=25/dw@=179906406/hits@=7/ct@=0/cm@=0/bnn@=\xe9\x9c\xb9\xe9\x9b\xb3/bl@=7/brid@=274874/hc@=a920350b8527fa101ccbdc0251a9b14e/sahf@=0/\x00'
+2017-05-29 18:28:46				_________解析礼物信息失败:b'\xeb\x00\x00\x00\xeb\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=274874/gfid@=824/gs@=2/uid@=18322856/nn@=1245845/ic@=avatar@S018@S32@S28@S56_avatar/eid@=0/level@=25/dw@=179906406/hits@=8/ct@=0/cm@=0/bnn@=\xe9\x9c\xb9\xe9\x9b\xb3/bl@=7/brid@=274874/hc@=a920350b8527fa101ccbdc0251a9b14e/sahf@=0/\x00'
+2017-05-29 18:34:29		请求网页内容...
+2017-05-29 18:34:29		获取房间信息...
+2017-05-29 18:34:29		房间名:霹雳Man现身嘉年华！		|		主播:霹雳爷们儿
+2017-05-29 18:34:29		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:34:29		连接成功,发送登录请求...
+2017-05-29 18:34:29		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2805520624/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:34:29		登录成功
+2017-05-29 18:34:29		进入弹幕服务器...
+2017-05-29 18:34:29		心跳包机制启动...
+2017-05-29 18:34:30		监听中
+2017-05-29 18:34:34				_________解析礼物信息失败:b'\xd7\x00\x00\x00\xd7\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=274874/gfid@=520/gs@=2/uid@=14375611/nn@=Seven\xe4\xb8\xb6e1even/ic@=avatar@Sface@S201604@S2b1fe1bf9cbea8fdfb4549c407dbeb8a/eid@=0/level@=12/dw@=179910406/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 18:36:12		请求网页内容...
+2017-05-29 18:36:12		获取房间信息...
+2017-05-29 18:36:12		房间名:霹雳Man现身嘉年华！		|		主播:霹雳爷们儿
+2017-05-29 18:36:12		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:36:12		连接成功,发送登录请求...
+2017-05-29 18:36:12		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2661632608/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:36:12		登录成功
+2017-05-29 18:36:12		进入弹幕服务器...
+2017-05-29 18:36:12		心跳包机制启动...
+2017-05-29 18:36:12		监听中
+2017-05-29 18:37:36		请求网页内容...
+2017-05-29 18:37:36		获取房间信息...
+2017-05-29 18:37:36		房间名:霹雳Man现身嘉年华！		|		主播:霹雳爷们儿
+2017-05-29 18:37:36		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:37:36		连接成功,发送登录请求...
+2017-05-29 18:37:36		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2703876624/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:37:36		登录成功
+2017-05-29 18:37:36		进入弹幕服务器...
+2017-05-29 18:37:36		心跳包机制启动...
+2017-05-29 18:37:36		监听中
+2017-05-29 18:38:10		请求网页内容...
+2017-05-29 18:38:11		获取房间信息...
+2017-05-29 18:38:11		房间名:霹雳Man现身嘉年华！		|		主播:霹雳爷们儿
+2017-05-29 18:38:11		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:38:11		连接成功,发送登录请求...
+2017-05-29 18:38:11		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2641807104/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:38:11		登录成功
+2017-05-29 18:38:11		进入弹幕服务器...
+2017-05-29 18:38:11		心跳包机制启动...
+2017-05-29 18:38:11		监听中
+2017-05-29 18:42:07		请求网页内容...
+2017-05-29 18:42:08		获取房间信息...
+2017-05-29 18:42:08		房间名:霹雳Man现身嘉年华！		|		主播:霹雳爷们儿
+2017-05-29 18:42:08		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:42:08		连接成功,发送登录请求...
+2017-05-29 18:42:08		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3017641296/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:42:08		登录成功
+2017-05-29 18:42:08		进入弹幕服务器...
+2017-05-29 18:42:08		心跳包机制启动...
+2017-05-29 18:42:08		监听中
+2017-05-29 18:42:42		请求网页内容...
+2017-05-29 18:42:43		获取房间信息...
+2017-05-29 18:42:43		房间名:霹雳Man现身嘉年华！		|		主播:霹雳爷们儿
+2017-05-29 18:42:43		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 18:42:43		连接成功,发送登录请求...
+2017-05-29 18:42:43		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3490374208/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 18:42:43		登录成功
+2017-05-29 18:42:43		进入弹幕服务器...
+2017-05-29 18:42:43		心跳包机制启动...
+2017-05-29 18:42:43		监听中
+2017-05-29 19:04:07		请求网页内容...
+2017-05-29 19:04:07		请求网页内容失败...
+2017-05-29 19:04:39		请求网页内容...
+2017-05-29 19:04:39		请求网页内容失败...
+2017-05-29 19:05:41		请求网页内容...
+2017-05-29 19:05:41		请求网页内容失败...
+2017-05-29 19:06:27		请求网页内容...
+2017-05-29 19:08:26		请求网页内容...
+2017-05-29 19:08:27		获取房间信息...
+2017-05-29 19:08:27		房间名:嘉年华你见到我了吗		|		主播:春天你要快乐
+2017-05-29 19:08:27		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 19:08:28		连接成功,发送登录请求...
+2017-05-29 19:08:28		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2259628752/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 19:08:28		登录成功
+2017-05-29 19:08:28		进入弹幕服务器...
+2017-05-29 19:08:28		心跳包机制启动...
+2017-05-29 19:08:28		监听中
+2017-05-29 19:09:52		请求网页内容...
+2017-05-29 19:09:53		获取房间信息...
+2017-05-29 19:09:53		房间名:斗鱼嘉年华遛一遛		|		主播:女流66
+2017-05-29 19:09:53		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 19:09:57		连接成功,发送登录请求...
+2017-05-29 19:09:57		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3539984480/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 19:09:57		登录成功
+2017-05-29 19:09:57		进入弹幕服务器...
+2017-05-29 19:09:57		心跳包机制启动...
+2017-05-29 19:09:57		监听中
+2017-05-29 19:13:16		请求网页内容...
+2017-05-29 19:13:16		获取房间信息...
+2017-05-29 19:13:16		房间名:斗鱼嘉年华遛一遛		|		主播:女流66
+2017-05-29 19:13:16		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 19:13:16		连接成功,发送登录请求...
+2017-05-29 19:13:17		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2787366784/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 19:13:17		登录成功
+2017-05-29 19:13:17		进入弹幕服务器...
+2017-05-29 19:13:17		心跳包机制启动...
+2017-05-29 19:13:17		监听中
+2017-05-29 19:13:18				_________解析礼物信息失败:b'\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=824/gs@=2/uid@=34868699/nn@=i\xe5\xbc\xa0\xe5\xb0\x8f\xe7\x86\x8a/ic@=avanew@Sface@S201705@S06@S15@Sf5dcac479fd1fdedd7afc0cdcde9af5a/eid@=0/level@=16/dw@=195558592/hits@=9/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:18				_________解析礼物信息失败:b'\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=520/gs@=2/uid@=41434483/nn@=\xe5\xa4\xb4\xe5\xa5\x97\xe5\x95\x8a/ic@=avanew@Sface@S201702@S14@S13@Sa7ae8c7b877fbdf0e197f23515d12bfe/eid@=0/level@=16/dw@=195558592/hits@=14/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\xe4\x00\x00\x00\xe4\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=824/gs@=2/uid@=34868699/nn@=i\xe5\xbc\xa0\xe5\xb0\x8f\xe7\x86\x8a/ic@=avanew@Sface@S201705@S06@S15@Sf5dcac479fd1fdedd7afc0cdcde9af5a/eid@=0/level@=16/dw@=195558592/hits@=10/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\xcf\x00\x00\x00\xcf\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=156277/uid@=24199208/nn@=\xe8\xb8\xa2\xe7\x9a\xae\xe5\x8d\xa1\xe4\xb8\x98\xe7\x9a\x84\xe5\xb0\x8f\xe9\xb8\xa1/txt@=\xe6\x8e\x92\xe9\x98\x9f/cid@=f6b60c2439954798daf2050000000000/ic@=avatar@S024@S19@S92@S08_avatar/level@=6/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=520/gs@=2/uid@=41434483/nn@=\xe5\xa4\xb4\xe5\xa5\x97\xe5\x95\x8a/ic@=avanew@Sface@S201702@S14@S13@Sa7ae8c7b877fbdf0e197f23515d12bfe/eid@=0/level@=16/dw@=195558592/hits@=15/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\xd6\x00\x00\x00\xd6\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=156277/uid@=572129/nn@=\xe5\xa4\xa7\xe5\x8d\x83\xe4\xb8\x96\xe7\x95\x8c\xe6\x9b\xb2/txt@=\xe8\xbf\x99\xe6\x98\xaf\xe5\x93\xaa\xe9\xa6\x96\xe6\xad\x8c\xe5\x95\x8a\xef\xbc\x9f/cid@=f6b60c2439954798d'
+2017-05-29 19:13:18				_________解析礼物信息失败:b'\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=520/gs@=2/uid@=41434483/nn@=\xe5\xa4\xb4\xe5\xa5\x97\xe5\x95\x8a/ic@=avanew@Sface@S201702@S14@S13@Sa7ae8c7b877fbdf0e197f23515d12bfe/eid@=0/level@=16/dw@=195558592/hits@=16/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:18				_________解析礼物信息失败:b'\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=520/gs@=2/uid@=41434483/nn@=\xe5\xa4\xb4\xe5\xa5\x97\xe5\x95\x8a/ic@=avanew@Sface@S201702@S14@S13@Sa7ae8c7b877fbdf0e197f23515d12bfe/eid@=0/level@=16/dw@=195558592/hits@=17/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\xa7\r\x00\x00\xa7\r\x00\x00\xb2\x02\x00\x00type@=online_noble_list/num@=64/nl@=uid@AA=50569599@ASnn@AA=\xe5\xa4\xa7\xe5\x91\xa8\xe5\x9c\x8b\xe5\xb8\xab\xe9\xa6\xac\xe5\x8f\x89\xe8\x9f\xb2@ASicon@AA=avanew@AASface@AAS201705@AAS04@AAS18@AASf2b0c86b0af981f7acf5d07152d01b31@ASne@AA=4@ASlv@AA=49@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=1424841@ASnn@AA=\xe4\xb8\xb6\xe7\xbb\x8f\xe7\xba\xaa\xe4\xba\xba@ASicon@AA=avanew@AASface@AAS201705@AAS20@AAS23@AAS2ba5e7833575665612423b900b565c83@ASne@AA=3@ASlv@AA=45@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=8677441@ASnn@AA=danteexxy@ASicon@AA=avanew@AASface@AAS201705@AAS28@AAS10@AAS9a87f7c80ef3ee81708d8eccdf0a09a4@ASne@AA=3@ASlv@AA=45@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=4276190@ASnn@AA=1\xef\xbc\x99\xef\xbc\x991@ASicon@AA=avatar@AASface@AAS201608@AAS25@AAS4da3153ce8132684ce50ca43e9c92fa6@ASne@AA=3@ASlv@AA=45@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=29324404@ASnn@AA=\xe5\xa1\x94\xe6\xa1\xa5\xe5\x8d\xa1\xe5\x8d\xa1@ASicon@'
+2017-05-29 19:13:18				_________解析礼物信息失败:b'@AAS20@AAS23@AAS1999f28e913bf44ae89df6b671530ef7@ASne@AA=1@ASlv@AA=41@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=15347673@ASnn@AA=\xe5\xb0\x8f\xe5\xa4\xa9\xe7\x8b\xbc\xe6\x98\x9fSTAR@ASicon@AA=avatar@AASface@AAS201608@AAS13@AAS2f203f8fdcee40c259f0f69516bc418d@ASne@AA=1@ASlv@AA=39@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=94988054@ASnn@AA=\xe6\x9c\x88\xe6\x9c\xa6\xe8\x83\xa7\xe6\xbd\x87\xe5\xa6\x82\xe6\xa2\xa6@ASicon@AA=avanew@AASface@AAS201705@AAS08@AAS00@AAS009eedc8f4e466c96ef5c0c500e5688a@ASne@AA=1@ASlv@AA=38@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=70485874@ASnn@AA=\xe8\xb8\xbd\xe8\xb8\xbd\xe7\x8b\xac\xe8\xa1\x8c221@ASicon@AA=avanew@AASface@AAS201705@AAS19@AAS23@AAS073d93cd027a80589e855143213a6c2e@ASne@AA=1@ASlv@AA=37@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@S/rid@=156277/\x00\xbe\x00\x00\x00\xbe\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=193/gs@=3/uid@=1676958/nn@=ninga/ic@=avatar@S001@S67@S69@S58_avatar/eid@=0/level@=17/dw@=195558592/hits@=10/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:19				_________解析礼物信息失败:b'\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=520/gs@=2/uid@=41434483/nn@=\xe5\xa4\xb4\xe5\xa5\x97\xe5\x95\x8a/ic@=avanew@Sface@S201702@S14@S13@Sa7ae8c7b877fbdf0e197f23515d12bfe/eid@=0/level@=16/dw@=195558592/hits@=19/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:19				_________解析礼物信息失败:b'\x97\xe5\x95\x8a/ic@=avanew@Sface@S201702@S14@S13@Sa7ae8c7b877fbdf0e197f23515d12bfe/eid@=0/level@=16/dw@=195558592/hits@=20/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\xe5\x00\x00\x00\xe5\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=192/gs@=2/uid@=142160630/nn@=\xe4\xba\xba\xe5\xbf\x83\xe5\x8f\xb5\xe6\xb5\x8biiiiiiii/ic@=avanew@Sface@S201705@S28@S14@S423a3d6849fbfcf275657ce728068801/eid@=0/level@=2/dw@=195558592/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:19				_________解析礼物信息失败:b'\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=520/gs@=2/uid@=41434483/nn@=\xe5\xa4\xb4\xe5\xa5\x97\xe5\x95\x8a/ic@=avanew@Sface@S201702@S14@S13@Sa7ae8c7b877fbdf0e197f23515d12bfe/eid@=0/level@=16/dw@=195558592/hits@=21/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:19				_________解析礼物信息失败:b'\xbe\x00\x00\x00\xbe\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=193/gs@=3/uid@=1676958/nn@=ninga/ic@=avatar@S001@S67@S69@S58_avatar/eid@=0/level@=17/dw@=195558592/hits@=11/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:20				_________解析礼物信息失败:b'\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=520/gs@=2/uid@=41434483/nn@=\xe5\xa4\xb4\xe5\xa5\x97\xe5\x95\x8a/ic@=avanew@Sface@S201702@S14@S13@Sa7ae8c7b877fbdf0e197f23515d12bfe/eid@=0/level@=16/dw@=195558592/hits@=23/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\xcb\x00\x00\x00\xcb\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=156277/ct@=1/uid@=58789148/nn@=\xe4\xb8\x89\xe5\x8d\x81\xe8\x80\x8c\xe7\xab\x8bijk/txt@=\xe6\xbb\x9a\xe5\x8e\xbb\xe6\x8e\x92\xe9\x98\x9f/cid@=f6b60c2439954798f3f2050000000000/ic@=avatar@Sdefault@S01/level@=15/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00\xc9\x00\x00\x00\xc9\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=156277/uid@=836865/nn@=CCorz/txt@=\xe4\xb8\x89\xe5\x8d\x81\xe4\xb9\x88\xe7\x94\xb7\xe4\xba\xba\xef\xbc\x9f/cid@=f6b60c2439954798f4f2050000000000/ic@=avatar@S000@S83@S68@S65_avatar/level@=7/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 19:13:20				_________解析礼物信息失败:b'\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=520/gs@=2/uid@=41434483/nn@=\xe5\xa4\xb4\xe5\xa5\x97\xe5\x95\x8a/ic@=avanew@Sface@S201702@S14@S13@Sa7ae8c7b877fbdf0e197f23515d12bfe/eid@=0/level@=16/dw@=195558592/hits@=24/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:20				_________解析礼物信息失败:b'=156277/gfid@=193/gs@=3/uid@=1676958/nn@=ninga/ic@=avatar@S001@S67@S69@S58_avatar/eid@=0/level@=17/dw@=195558592/hits@=12/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\xe3\x00\x00\x00\xe3\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=520/gs@=2/uid@=41434483/nn@=\xe5\xa4\xb4\xe5\xa5\x97\xe5\x95\x8a/ic@=avanew@Sface@S201702@S14@S13@Sa7ae8c7b877fbdf0e197f23515d12bfe/eid@=0/level@=16/dw@=195558592/hits@=26/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\xdd\x00\x00\x00\xdd\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=714/gs@=2/uid@=46535991/nn@=Knight1988fa/ic@=avanew@Sface@S201703@S17@S11@S773e10919a4f4b08ef5d3991245ba1ec/eid@=0/level@=18/dw@=195558592/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\x89\x00\x00\x00\x89\x00\x00\x00\xb2\x02\x00\x00type@=uenter/rid@=156277/uid@=511313/nn@=\xe6\x9c\xba\xe6\x99\xba\xe5\x8b\x87\xe6\x95\xa2\xe7\x9a\x84\xe5\xb0\x8f\xe5\xb1\x81/level@=25/ic@=avatar@S000@S51@S13@S13_avatar/rni@=0/el@=/sahf@=0/\x00'
+2017-05-29 19:13:20				_________解析礼物信息失败:b'\xe5\x00\x00\x00\xe5\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=714/gs@=2/uid@=46535991/nn@=Knight1988fa/ic@=avanew@Sface@S201703@S17@S11@S773e10919a4f4b08ef5d3991245ba1ec/eid@=0/level@=18/dw@=195558592/hits@=2/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:21				_________解析礼物信息失败:b'\xe5\x00\x00\x00\xe5\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=714/gs@=2/uid@=46535991/nn@=Knight1988fa/ic@=avanew@Sface@S201703@S17@S11@S773e10919a4f4b08ef5d3991245ba1ec/eid@=0/level@=18/dw@=195558592/hits@=3/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:21				_________解析礼物信息失败:b'\xe5\x00\x00\x00\xe5\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=714/gs@=2/uid@=46535991/nn@=Knight1988fa/ic@=avanew@Sface@S201703@S17@S11@S773e10919a4f4b08ef5d3991245ba1ec/eid@=0/level@=18/dw@=195558592/hits@=4/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00K\x01\x00\x00K\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=156277/ct@=1/uid@=60255136/nn@=\xe7\xbd\x91\xe4\xb8\x8a\xe9\xac\xbc/txt@=30\xe6\xb2\xa1\xe7\x94\xb7\xe4\xba\xba/cid@=f6b60c243995479800f3050000000000/ic@=avatar@Sface@S201609@S17@Sa4f504081712d1e9bd366f1bc4783a00/level@=23/sahf@=0/bnn@=\xe6\xaf\x9b\xe5\xa6\xb9/bl@=4/brid@=848337/hc@=9ba31d1bf891362e7b20e69ca706ee6c/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00\x07\x01\x00\x00\x07\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=192/gs@=2/uid@=48796136/nn@=\xe5\x90\x83\xe5\x9c\x9f\xe7\x9a\x84\xe5\x86\xaf\xe5\xb0\x91/ic@=avatar@Sface@S201605@S11@Se373a1660b6daaeea6f5258ce7702a90/eid@=0/level@=20/dw@=195558592/ct@=0/cm@=0/bnn@=\xe5\xa5\xb3\xe6\xb5\x81/bl@=9/brid@=156277/hc@=043410607b0ea218395c3c0a070e8b71/sahf@=0/\x00\xbe\x00\x00\x00\xbe\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=193/gs@=3/uid@=1676958/nn@=ninga/ic@=avatar@S001@S67@S69@S58_avatar/eid@=0/level@=17/dw@=195558592/hits@=13/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf'
+2017-05-29 19:13:21				_________解析礼物信息失败:b'\xa5\xbd\xe5\x90\xac\xef\xbc\x88/cid@=f6b60c243995479807f3050000000000/ic@=avatar@Sface@S201604@S26@S9bac51fc01d1e2864169c513a98b5dc2/level@=18/sahf@=0/bnn@=\xe6\xb3\x95\xe7\x9b\xb2/bl@=2/brid@=73665/hc@=4a13f492286de816c131983ec03b942b/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/p2p@=1/\x00\xe5\x00\x00\x00\xe5\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=714/gs@=2/uid@=46535991/nn@=Knight1988fa/ic@=avanew@Sface@S201703@S17@S11@S773e10919a4f4b08ef5d3991245ba1ec/eid@=0/level@=18/dw@=195558592/hits@=5/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00N\x01\x00\x00N\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=156277/uid@=9565647/nn@=gackt565/txt@=\xe6\x89\x8e\xe5\xbf\x83\xe4\xba\x86\xe6\x89\x8e\xe5\xbf\x83\xe4\xba\x86/cid@=f6b60c243995479808f3050000000000/ic@=avanew@Sface@S201703@S20@S23@Sede587e1dfddfe3fcbe86b56d86082f9/level@=23/sahf@=0/bnn@=\xe5\xa5\xb3\xe6\xb5\x81/bl@=6/brid@=156277/hc@=043410607b0ea218395c3c0a070e8b71/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00\xe5\x00\x00\x00\xe5\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=714/gs@=2/uid@=46535991/nn@=Knight1988fa/ic@=avanew@Sface@S201703@S17@S11@S773e10919a4f4b08ef5d3991245ba1ec/eid@=0/level@=18/dw@=195558592/hits@=6/ct@=0'
+2017-05-29 19:13:22				_________解析礼物信息失败:b'\xbe\x00\x00\x00\xbe\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=193/gs@=3/uid@=1676958/nn@=ninga/ic@=avatar@S001@S67@S69@S58_avatar/eid@=0/level@=17/dw@=195558592/hits@=14/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:22				_________解析礼物信息失败:b'\xe5\x00\x00\x00\xe5\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=714/gs@=2/uid@=46535991/nn@=Knight1988fa/ic@=avanew@Sface@S201703@S17@S11@S773e10919a4f4b08ef5d3991245ba1ec/eid@=0/level@=18/dw@=195558592/hits@=7/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00'
+2017-05-29 19:13:22				_________解析礼物信息失败:b'\x0f\x01\x00\x00\x0f\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=192/gs@=2/uid@=48796136/nn@=\xe5\x90\x83\xe5\x9c\x9f\xe7\x9a\x84\xe5\x86\xaf\xe5\xb0\x91/ic@=avatar@Sface@S201605@S11@Se373a1660b6daaeea6f5258ce7702a90/eid@=0/level@=20/dw@=195558592/hits@=6/ct@=0/cm@=0/bnn@=\xe5\xa5\xb3\xe6\xb5\x81/bl@=9/brid@=156277/hc@=043410607b0ea218395c3c0a070e8b71/sahf@=0/\x00\xda\x00\x00\x00\xda\x00\x00\x00\xb2\x02\x00\x00type@=uenter/rid@=156277/uid@=77550864/nn@=\xe6\xb0\xb8\xe6\x81\x92\xe5\x91\xa6/level@=30/ic@=avanew@Sface@S201704@S24@S21@Sd65eb0f5457df1113974b693aa82b383/nl@=1/rni@=0/el@=eid@AA=1500000005@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/sahf@=0/\x00\xdb\x00\x00\x00\xdb\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=520/gs@=2/uid@=34868699/nn@=i\xe5\xbc\xa0\xe5\xb0\x8f\xe7\x86\x8a/ic@=avanew@Sface@S201705@S06@S15@Sf5dcac479fd1fdedd7afc0cdcde9af5a/eid@=0/level@=16/dw@=195558592/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\xbe\x00\x00\x00\xbe\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=193/gs@=3/uid@=1676958/nn@=ninga/ic@=avatar@S001@S67@S69@S58_avatar/eid@=0/level@=17/dw@=195558592/hits@=15/ct@=0/cm@=0/bnn@=/bl@=0/brid@=0/hc@=/sahf@=0/\x00\x13\x01\x00\x00\x13\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=824/gs@=2/uid@=77386137/nn@=\xe9\xa1\xb6\xe7\x9d\x80\xe6\x97\xb6\xe5\xb7\xae\xe7\x9c\x8b66\xe7\x9a\x84\xe5\x98\xbf/ic@=avanew@Sface@S'
+2017-05-29 19:13:22				_________解析礼物信息失败:b'\x0f\x01\x00\x00\x0f\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=192/gs@=2/uid@=48796136/nn@=\xe5\x90\x83\xe5\x9c\x9f\xe7\x9a\x84\xe5\x86\xaf\xe5\xb0\x91/ic@=avatar@Sface@S201605@S11@Se373a1660b6daaeea6f5258ce7702a90/eid@=0/level@=20/dw@=195558592/hits@=7/ct@=0/cm@=0/bnn@=\xe5\xa5\xb3\xe6\xb5\x81/bl@=9/brid@=156277/hc@=043410607b0ea218395c3c0a070e8b71/sahf@=0/\x00'
+2017-05-29 19:13:23				_________解析礼物信息失败:b'\xe5\x00\x00\x00\xe5\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=193/gs@=3/uid@=906243/nn@=464466019/ic@=avatar@S000@S90@S62@S43_avatar/eid@=0/level@=18/dw@=195558592/ct@=0/cm@=0/bnn@=\xe5\xb0\x8f\xe5\x83\xb5\xe5\xb0\xb8/bl@=7/brid@=58428/hc@=a9abd1fedb4ae807171c0ebad27b7d12/sahf@=0/\x00^\x01\x00\x00^\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=156277/ct@=2/uid@=18818987/nn@=CHI66\xe8\x90\x8c\xe8\x90\x8c\xe5\x93\x92\xe7\x88\xb1\xe5\xb0\x8f\xe5\x9c\xad/txt@=[emot:dy110]/cid@=f6b60c243995479812f3050000000000/ic@=avanew@Sface@S201704@S30@S10@Sc419d384434898e1e28080bd240142a7/level@=21/sahf@=0/bnn@=\xe5\xa5\xb3\xe6\xb5\x81/bl@=9/brid@=156277/hc@=043410607b0ea218395c3c0a070e8b71/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00\x1b\x01\x00\x00\x1b\x01\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=824/gs@=2/uid@=77386137/nn@=\xe9\xa1\xb6\xe7\x9d\x80\xe6\x97\xb6\xe5\xb7\xae\xe7\x9c\x8b66\xe7\x9a\x84\xe5\x98\xbf/ic@=avanew@Sface@S201705@S14@S22@Sed8f4f2d735d2d87dcf411af22472184/eid@=0/level@=35/dw@=195558592/hits@=2/ct@=0/cm@=0/bnn@=\xe5\xa5\xb3\xe6\xb5\x81/bl@=7/brid@=156277/hc@=043410607b0ea218395c3c0a070e8b71/sahf@=0/\x00O\x01\x00\x00O\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=156277/ct@=1/uid@=949381/nn@=\xe7\x9c\x8b\xe7\x90\x83\xe8\x92\x82/txt@=\xe4\xbd\xa030\xe6\xb2\xa1\xe7\x94\xb7\xe4\xba\xba/cid@=f6b60c243995479813f3050000000000/ic@=avanew@Sface@S2017'
+2017-05-29 19:13:23				_________解析礼物信息失败:b'\xed\x00\x00\x00\xed\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=156277/gfid@=193/gs@=3/uid@=906243/nn@=464466019/ic@=avatar@S000@S90@S62@S43_avatar/eid@=0/level@=18/dw@=195558592/hits@=2/ct@=0/cm@=0/bnn@=\xe5\xb0\x8f\xe5\x83\xb5\xe5\xb0\xb8/bl@=7/brid@=58428/hc@=a9abd1fedb4ae807171c0ebad27b7d12/sahf@=0/\x00'
+2017-05-29 19:13:53		请求网页内容...
+2017-05-29 19:13:54		获取房间信息...
+2017-05-29 19:13:54		房间名:斗鱼嘉年华遛一遛		|		主播:女流66
+2017-05-29 19:13:54		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 19:13:54		连接成功,发送登录请求...
+2017-05-29 19:13:54		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3547523920/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 19:13:54		登录成功
+2017-05-29 19:13:54		进入弹幕服务器...
+2017-05-29 19:13:54		心跳包机制启动...
+2017-05-29 19:13:54		监听中
+2017-05-29 19:14:18		请求网页内容...
+2017-05-29 19:14:19		获取房间信息...
+2017-05-29 19:14:19		房间名:斗鱼嘉年华遛一遛		|		主播:女流66
+2017-05-29 19:14:19		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 19:14:19		连接成功,发送登录请求...
+2017-05-29 19:14:19		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3549376976/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 19:14:19		登录成功
+2017-05-29 19:14:19		进入弹幕服务器...
+2017-05-29 19:14:19		心跳包机制启动...
+2017-05-29 19:14:20		监听中
+2017-05-29 19:15:07		请求网页内容...
+2017-05-29 19:15:08		获取房间信息...
+2017-05-29 19:15:08		房间名:斗鱼嘉年华遛一遛		|		主播:女流66
+2017-05-29 19:15:08		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 19:15:08		连接成功,发送登录请求...
+2017-05-29 19:15:08		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=3142768544/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 19:15:08		登录成功
+2017-05-29 19:15:08		进入弹幕服务器...
+2017-05-29 19:15:08		心跳包机制启动...
+2017-05-29 19:15:09		监听中
+2017-05-29 22:03:48		请求网页内容...
+2017-05-29 22:03:48		获取房间信息...
+2017-05-29 22:03:48		房间名:过气主播在家苦苦直播		|		主播:七哥张琪格
+2017-05-29 22:03:48		连接弹幕服务器...openbarrage.douyutv.com:8601
+2017-05-29 22:03:48		连接成功,发送登录请求...
+2017-05-29 22:03:48		Received from login		b'\xee\x00\x00\x00\xee\x00\x00\x00\xb2\x02\x00\x00type@=loginres/userid@=0/roomgroup@=0/pg@=0/sessionid@=0/username@=/nickname@=/live_stat@=0/is_illegal@=0/ill_ct@=/ill_ts@=0/now@=0/ps@=0/es@=0/it@=0/its@=0/npv@=0/best_dlev@=0/cur_lev@=0/nrc@=2812745712/ih@=0/sid@=70103/sahf@=0/\x00'
+2017-05-29 22:03:48		登录成功
+2017-05-29 22:03:48		进入弹幕服务器...
+2017-05-29 22:03:48		心跳包机制启动...
+2017-05-29 22:03:49		监听中
+2017-05-29 22:05:11				_________解析弹幕信息失败:b'\xfc\x00\x00\x00\xfc\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=65251/ct@=1/uid@=18372525/nn@=403612677/txt@=\xc0\x80\xe6\x8a\x8a\xe4\xb8\x8a\xe9\x9d\xa2\xe7\x9a\x84\xe5\x86\x85\xe5\xae\xb9\xe5\x8f\x91\xe5\x88\xb06\xe4\xb8\xaa\xe7\xbe\xa4\xe5\xb0\xb1\xe5\x8f\xaf\xe4\xbb\xa5\xe4\xba\x86\xef\xbc\x8c\xe7\xbe\xa4\xe4\xb8\x8d\xe5\xa4\x9f/cid@=c36ad7d124f14068031d110000000000/ic@=avatar@S018@S37@S25@S25_avatar/level@=13/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 22:07:49				_________解析礼物信息失败:b'A=1@ASrg@AA=1@ASne@AA=0@ASih@AA=0@ASsahf@AA=0@AS@Suid@AA=12453910@AScrk@AA=7@ASlrk@AA=8@ASrs@AA=1@ASnickname@AA=\xe6\xb2\xa7\xe6\xb5\xb7\xe7\xbb\x88\xe6\x9c\x89\xe6\x9c\x88\xe6\x98\x8e\xe6\x97\xb6@ASgold@AA=16500@ASlevel@AA=6@ASicon@AA=avatar@AAS012@AAS45@AAS39@AAS10_avatar@ASpg@AA=1@ASrg@AA=1@ASne@AA=0@ASih@AA=0@ASsahf@AA=0@AS@Suid@AA=142084040@AScrk@AA=8@ASlrk@AA=7@ASrs@AA=-1@ASnickname@AA=\xe6\x9f\xaf\xe4\xb8\xb0769702@ASgold@AA=14100@ASlevel@AA=5@ASicon@AA=avanew@AASface@AAS201705@AAS28@AAS17@AAS43c5d31b9d2e5eb948a89c035d4757f9@ASpg@AA=1@ASrg@AA=1@ASne@AA=0@ASih@AA=0@ASsahf@AA=0@AS@Suid@AA=142208105@AScrk@AA=9@ASlrk@AA=8@ASrs@AA=-1@ASnickname@AA=\xe4\xb8\x80\xe4\xba\x8c\xe4\xb8\x89\xe5\x9b\x9b\xe4\xba\x94\xe5\xa3\xb9\xe8\xb4\xb0\xe5\x8f\x81@ASgold@AA=14000@ASlevel@AA=5@ASicon@AA=avanew@AASface@AAS201705@AAS28@AAS21@AAS7d22794c07221926ac0d1a5598233500@ASpg@AA=1@ASrg@AA=1@ASne@AA=0@ASih@AA=0@ASsahf@AA=0@AS@Suid@AA=31952245@AScrk@AA=10@ASlrk@AA=11@ASrs@AA=0@ASnickname@AA=\xe6\xa2\x85\xe9\x9b\xaa\xe6\x9d\xbe@ASgold@AA=13000@ASlevel@AA=13@ASicon@AA=avatar@AAS031@AAS95@AAS22@AAS45_avatar@ASpg@AA=1@ASrg@AA=1@ASne@AA=0@ASih@AA=0@ASsahf@AA=0@AS@S/\x00\xe4\x00\x00\x00\xe4\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=65251/gfid@=192/'
+2017-05-29 22:09:57				_________解析礼物信息失败:b'=1@ASsahf@AA=0@AS@Suid@AA=133168681@ASnn@AA=\xe4\xbd\xa0\xe4\xb8\x9c\xe7\x88\xb9\xe6\x9d\xa5\xe4\xba\x86@ASicon@AA=avanew@AASface@AAS201705@AAS15@AAS11@AASa44f7242abdd8defda9d7c061cd48854@ASne@AA=1@ASlv@AA=28@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=89952479@ASnn@AA=\xe8\x9c\x9c\xe7\xb3\x96\xe5\xa6\xb9\xe5\xad\x90m@ASicon@AA=avanew@AASface@AAS201703@AAS25@AAS15@AAS739e673dced537d8c5c833b671b0be31@ASne@AA=1@ASlv@AA=27@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=29505263@ASnn@AA=mapl890@ASicon@AA=avatar@AAS029@AAS50@AAS52@AAS63_avatar@ASne@AA=1@ASlv@AA=27@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=127516567@ASnn@AA=\xe8\x8d\x94\xe6\x9e\x9d\xe6\xa0\x91\xe4\xb8\x8b\xe9\x9d\xa2@ASicon@AA=avanew@AASface@AAS201703@AAS27@AAS20@AAS700b7cfe74c4786870e1f07bbd781a74@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=70121696@ASnn@AA=\xe6\x97\xa9\xe8\xb5\xb7\xe7\x9a\x84\xe8\xbd\xa9\xe5\x93\xa5\xe5\x93\xa5@ASicon@AA=avanew@AASface@AAS201705@AAS10@AAS19@AAS74b122bb54c71cfe62194a83a4adc441@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@S/rid@=65251/\x00\xcb\x00\x00\x00\xcb\x00\x00\x00\xb2\x02\x00\x00type@=dgb/rid@=65251/gfid@=192/gs@=2/uid@=38896237/nn@=\xe5\xa4\x9c\xe7\xa9\xba\xe9\x9c\x93\xe8\x99\xb9\xe7\xb9\x81\xe8\x8d\xa3/ic@=avatar@S038@S89@S62@S37_avatar/eid@=0/lev'
+2017-05-29 22:10:07				_________解析弹幕信息失败:b'0bb194d53ad929314c9dd540ef0df3f@ASne@AA=1@ASlv@AA=28@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=133168681@ASnn@AA=\xe4\xbd\xa0\xe4\xb8\x9c\xe7\x88\xb9\xe6\x9d\xa5\xe4\xba\x86@ASicon@AA=avanew@AASface@AAS201705@AAS15@AAS11@AASa44f7242abdd8defda9d7c061cd48854@ASne@AA=1@ASlv@AA=28@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=89952479@ASnn@AA=\xe8\x9c\x9c\xe7\xb3\x96\xe5\xa6\xb9\xe5\xad\x90m@ASicon@AA=avanew@AASface@AAS201703@AAS25@AAS15@AAS739e673dced537d8c5c833b671b0be31@ASne@AA=1@ASlv@AA=27@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=29505263@ASnn@AA=mapl890@ASicon@AA=avatar@AAS029@AAS50@AAS52@AAS63_avatar@ASne@AA=1@ASlv@AA=27@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=127516567@ASnn@AA=\xe8\x8d\x94\xe6\x9e\x9d\xe6\xa0\x91\xe4\xb8\x8b\xe9\x9d\xa2@ASicon@AA=avanew@AASface@AAS201703@AAS27@AAS20@AAS700b7cfe74c4786870e1f07bbd781a74@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=70121696@ASnn@AA=\xe6\x97\xa9\xe8\xb5\xb7\xe7\x9a\x84\xe8\xbd\xa9\xe5\x93\xa5\xe5\x93\xa5@ASicon@AA=avanew@AASface@AAS201705@AAS10@AAS19@AAS74b122bb54c71cfe62194a83a4adc441@ASne@AA=1@ASlv@AA=26@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@S/rid@=65251/\x00\xff\x00\x00\x00\xff\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=65251/ct@=2/uid@=34636705/nn@='
+2017-05-29 22:21:11				_________解析弹幕信息失败:b'\x12\x01\x00\x00\x12\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=65251/ct@=1/uid@=3370405/nn@=\xe6\x9c\x8b\xe6\x9c\x8b\xe7\x86\x8a/txt@=\xe7\x9b\xb4\xe6\x92\xad\xe7\x9d\xa1\xe8\xa7\x89\xe5\x95\x8a\xed\xa0\xbd\xed\xb2\xa4\xed\xa0\xbd\xed\xb2\xa4/cid@=c36ad7d124f14068063d110000000000/ic@=avatar@S003@S37@S04@S05_avatar/level@=16/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 22:22:38				_________解析弹幕信息失败:b'lv@AA=32@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=13051608@ASnn@AA=XLovexxT@ASicon@AA=avatar@AAS013@AAS05@AAS16@AAS08_avatar@ASne@AA=1@ASlv@AA=31@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=2821121@ASnn@AA=\xe6\xb5\x81\xe6\xb5\x81\xe5\xb9\xb4\xe5\xb9\xb4\xe6\xb5\x81\xe5\xb9\xb4@ASicon@AA=avanew@AASface@AAS201704@AAS10@AAS22@AAS973401bce0a1673609952483fcb8fbff@ASne@AA=1@ASlv@AA=30@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=35505292@ASnn@AA=\xe8\xbf\xb7\xe4\xba\xba\xe4\xb8\xb6\xe5\xb0\x8f\xe9\x98\xbf\xe6\xb3\xbd@ASicon@AA=avanew@AASface@AAS201703@AAS06@AAS13@AAS04adba6fbee0e4f750ba52dc7757b872@ASne@AA=1@ASlv@AA=29@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=24918928@ASnn@AA=\xe5\xbf\x83\xe7\x97\x9bhxj@ASicon@AA=avatar@AASface@AAS201604@AAS28d6cad5cebb3f8fa6d2d9b271aeb9a0@ASne@AA=1@ASlv@AA=29@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@Suid@AA=28492614@ASnn@AA=\xe5\x9b\xbe\xe5\x9b\xbe\xe5\x90\x83\xe8\x99\xbe\xe7\xb1\xb3@ASicon@AA=avanew@AASface@AAS201705@AAS28@AAS00@AASc5ede45b424163a8957b31b9df6c0efe@ASne@AA=1@ASlv@AA=28@ASpg@AA=1@ASrg@AA=1@ASsahf@AA=0@AS@S/rid@=65251/\x008\x01\x00\x008\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=65251/ct@=2/uid@=26349120/nn@=\xe4\xb8\x80\xe6\x9b\xb2\xe9\x95\xbf\xe7\x9b\xb8\xe5\xae\x88/txt@=\xe8\xbf\x99\xe4\xb8\xaa\xe5\x87\xb6\xe7\x9a\x84\xe8\xbd\xae\xe5\xbb\x93\xe4\xb8\x8d\xe5\xba\x94\xe8\xaf\xa5\xe8\xbf\x99\xe4\xb9\x88\xe5\xa4\xa7\xe9\x98'
+2017-05-29 22:33:26				_________解析弹幕信息失败:b'@ASrg@AA=1@ASne@AA=0@ASih@AA=0@ASsahf@AA=0@AS@Suid@AA=31952245@AScrk@AA=7@ASlrk@AA=6@ASrs@AA=-1@ASnickname@AA=\xe6\xa2\x85\xe9\x9b\xaa\xe6\x9d\xbe@ASgold@AA=36000@ASlevel@AA=13@ASicon@AA=avatar@AAS031@AAS95@AAS22@AAS45_avatar@ASpg@AA=1@ASrg@AA=1@ASne@AA=0@ASih@AA=0@ASsahf@AA=0@AS@Suid@AA=54669147@AScrk@AA=8@ASlrk@AA=7@ASrs@AA=-1@ASnickname@AA=\xe4\xb8\xbf\xe6\x9c\x88\xe4\xba\xae@ASgold@AA=25200@ASlevel@AA=20@ASicon@AA=avanew@AASface@AAS201701@AAS22@AAS22@AASde29febfe1b9b0377d307c6db30ba3e3@ASpg@AA=1@ASrg@AA=1@ASne@AA=0@ASih@AA=0@ASsahf@AA=0@AS@Suid@AA=90646556@AScrk@AA=9@ASlrk@AA=8@ASrs@AA=-1@ASnickname@AA=\xe6\x88\x91\xe8\x82\xaf\xe5\xae\x9a\xe4\xb8\x8d\xe6\x98\xaf\xe5\xa5\xbd\xe4\xba\xba@ASgold@AA=25000@ASlevel@AA=22@ASicon@AA=avanew@AASface@AAS201701@AAS05@AAS17@AAS14017b4f4374240959a5465405427eb6@ASpg@AA=1@ASrg@AA=4@ASne@AA=0@ASih@AA=0@ASsahf@AA=0@AS@Suid@AA=2479094@AScrk@AA=10@ASlrk@AA=9@ASrs@AA=-1@ASnickname@AA=wanhuanyz001@ASgold@AA=22400@ASlevel@AA=18@ASicon@AA=avatar@AAS002@AAS47@AAS90@AAS94_avatar@ASpg@AA=1@ASrg@AA=1@ASne@AA=0@ASih@AA=0@ASsahf@AA=0@AS@S/\x00\xd8\x00\x00\x00\xd8\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=65251/ct@=2/uid@=52252926/nn@'
+2017-05-29 22:40:36				_________解析弹幕信息失败:b"'\x01\x00\x00'\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=65251/ct@=1/uid@=101703201/nn@=\xe9\xa6\x99\xe8\x95\x89\xe5\x95\xa6\xe5\x92\xaf\xe5\x8f\xad\xe5\x8f\xad/txt@=\xe8\xa2\xab\xe4\xba\xba\xe5\xa4\x84\xe7\x90\x86\xe8\xbf\x87\xe7\x9a\x84\xe5\xa5\xb3\xe4\xba\xba\xe5\x8f\xab\xe5\xa4\x84\xe5\xa5\xb3\xed\xa0\xbd\xed\xb8\x82\xed\xa0\xbd\xed\xb8\x82\xed\xa0\xbd\xed\xb8\x82/cid@=c36ad7d124f140686062110000000000/ic@=avanew@Sface@S201701@S10@S11@Sb10ecbbbe49e954cdc57daf4213465d0/level@=12/sahf@=0/col@=5/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00"
+2017-05-29 22:51:45				_________解析弹幕信息失败:b'3\x01\x00\x003\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=65251/ct@=1/uid@=73939260/nn@=\xe8\x8d\x92\xe9\x87\x8e\xe8\xbd\xbb\xe8\xaf\xad/txt@=\xe5\x80\x9f\xe4\xbd\xa0\xe4\xb8\x80\xe4\xb8\xaa\xe9\xb8\xa1\xe5\xb7\xb4\xed\xa0\xbd\xed\xb0\x94/cid@=c36ad7d124f14068f779110000000000/ic@=avanew@Sface@S201610@S06@S19@S54267b82c0d0c73051ed2f540724c95b/level@=15/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
+2017-05-29 22:53:01				_________解析弹幕信息失败:b'\xf3\x00\x00\x00\xf3\x00\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=65251/ct@=1/uid@=74822127/nn@=92091334/txt@=\xed\xa0\xbd\xed\xb8\xa3\xed\xa0\xbd\xed\xb8\xa3\xed\xa0\xbd\xed\xb8\xa3/cid@=c36ad7d124f14068b77c110000000000/ic@=avanew@Sface@S201610@S11@S21@Sb9797ca96fba28b9c27f6027bbdbe747/level@=1/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=/\x00'
+2017-05-29 22:58:16				_________解析弹幕信息失败:b',\x01\x00\x00,\x01\x00\x00\xb2\x02\x00\x00type@=chatmsg/rid@=65251/ct@=1/uid@=32764130/nn@=Q1bf538875c5928999/txt@=\xed\xa0\xbd\xed\xb8\x82\xed\xa0\xbd\xed\xb8\x82\xed\xa0\xbd\xed\xb8\x82\xe6\x80\x8e\xe4\xb9\x88\xe5\x9b\x9e\xe4\xba\x8b\xe5\x95\x8a\xef\xbc\x8c\xe6\x89\x8e\xe5\xbf\x83\xe4\xba\x86\xe4\xb9\x88\xe8\x80\x81777/cid@=c36ad7d124f140686c88110000000000/ic@=avatar@Sdefault@S10/level@=19/sahf@=0/bnn@=/bl@=0/brid@=0/hc@=/el@=eid@AA=1500000113@ASetp@AA=1@ASsc@AA=1@ASef@AA=0@AS@S/\x00'
