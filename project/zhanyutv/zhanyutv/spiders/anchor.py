@@ -1,17 +1,23 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import re
+import json
 from scrapy.http import Request
+# from scrapy.loader import ItemLoader
 from urllib import parse
 from ..items import AncharItem
+from ..items import AncharItemLoader
+from ..constants.tv_api import ApiHelper
+
 
 class AnchorSpider(scrapy.Spider):
     name = "anchor"
-    allowed_domains = ["douyu.com"]
+    allowed_domains = ["douyu.com", "douyucdn.cn"]
     start_urls = ['https://www.douyu.com/directory/all/']
 
     # ajax_url = "https://www.douyu.com/directory/all?isAjax=1&page="
     ajax_url = "https://www.douyu.com/directory/all?page="
+
     all_page = 0  # 总页数
     current_page = 1  # 当前页数
     """
@@ -27,14 +33,28 @@ class AnchorSpider(scrapy.Spider):
             anchor = AncharItem()
             anchor['room_id'] = int(select.xpath('@data-rid').extract()[0])
             anchor['room_href'] = select.xpath('@href').extract()[0]
-            anchor['room_title'] = select.xpath('@title').extract()[0]
+            anchor['room_name'] = select.xpath('@title').extract()[0]
             anchor['room_sid'] = int(select.xpath('@data-sid').extract()[0])
-            anchor['anchor_nickname'] = select.xpath('.//span[contains(@class ,"dy-name")]/text()').extract()[0]
-            anchor['view_nums'] = select.xpath('.//span[contains(@class ,"dy-num")]/text()').extract()[0]
+            anchor['nickname'] = select.xpath('.//span[contains(@class ,"dy-name")]/text()').extract()[0]
+            anchor['online_num'] = select.xpath('.//span[contains(@class ,"dy-num")]/text()').extract()[0]
             anchor_list.append(anchor)
             # 交给主播个人数据解析
-            # yield Request(url=parse.urljoin(response.url, anchor['room_href']), callback=self.parse_anchor_info)
-            yield anchor
+            roominfo_url = ApiHelper.get_douyu_roominfo_url(anchor['room_id'])
+            print(roominfo_url)
+            yield Request(url=roominfo_url, callback=self.parse_anchor_info)
+
+            # 通过ItemLoader加载实例
+            # item_loader = AncharItemLoader(item=AncharItem(), response=response)
+            # item_loader.add_xpath("room_id", "@data-rid")
+            # item_loader.add_xpath("room_href", "@href")
+            # item_loader.add_xpath("room_name", "@title")
+            # item_loader.add_xpath("room_sid", "@data-sid")
+            # item_loader.add_xpath("nickname", './/span[contains(@class ,"dy-name")]/text()')
+            # item_loader.add_xpath("online_num", './/span[contains(@class ,"dy-num")]/text()')
+            # anchor = item_loader.load_item()
+            # item_loader.add_value()
+
+            # yield anchor
 
         # 提取下一页并交给scrapy进行下载
         if self.current_page < self.all_page:
@@ -47,7 +67,25 @@ class AnchorSpider(scrapy.Spider):
 
     # 爬取主播个人数据
     def parse_anchor_info(self, response):
-        pass
+        if response.body:
+            result = json.loads(response.body)
+            if result and int(result['error']) == 0:
+                result_anchor_info = result['data']
+                anchor_info = AncharItem()
+                anchor_info['room_id'] = result_anchor_info['room_id']
+                # anchor_info['room_href'] = result_anchor_info['room_href']
+                anchor_info['room_name'] = result_anchor_info['room_name']
+                anchor_info['room_thumb'] = result_anchor_info['room_thumb']
+                anchor_info['nickname'] = result_anchor_info['owner_name']
+                anchor_info['avatar'] = result_anchor_info['avatar']
+                anchor_info['cate_id'] = result_anchor_info['cate_id']
+                anchor_info['cate_name'] = result_anchor_info['cate_name']
+                anchor_info['start_time'] = result_anchor_info['start_time']
+                anchor_info['fans_num'] = result_anchor_info['fans_num']
+                anchor_info['online_num'] = result_anchor_info['online']
+                anchor_info['gift_list'] = result_anchor_info['gift']
+                yield anchor_info
+        # pass
 
     # 爬取在播列表总页数 (发现斗鱼的页数是在js渲染出来，所以抓取html抓不到生成的节点，可以通过抓取script )
     def get_all_page(self, response):

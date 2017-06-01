@@ -7,12 +7,11 @@ __all__ = ['MongoDBClient']
 class MongoDBClient(object):
 
     def __init__(self, platform):
-        host = '192.168.2.105'
-        port = 27017
         database = 'danmu'
         collection_douyu = 'douyu'
         # client = pymongo.MongoClient(host, port)
-        client = pymongo.MongoClient('mongodb://192.168.2.105:27017/')
+        # client = pymongo.MongoClient('mongodb://192.168.2.105:27017/')
+        client = pymongo.MongoClient('mongodb://192.168.135.128:27017/')
         # 连接数据库
         db = client[database]
         # 连接聚集

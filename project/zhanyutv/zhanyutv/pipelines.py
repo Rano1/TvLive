@@ -11,6 +11,9 @@ from scrapy.exporters import JsonItemExporter
 from twisted.enterprise import adbapi
 import MySQLdb
 import MySQLdb.cursors
+from .db.RedisClient import RedisClient
+
+PLATFORM_DOUYU = 1
 
 class ZhanyutvPipeline(object):
     def process_item(self, item, spider):
@@ -81,11 +84,11 @@ class MysqlPipeline(object):
 
     def process_item(self, item, spider):
         insert_sql = """
-            insert into anthor(nickname,sex,platform,room_id,room_href,room_title)
+            insert into anthor(nickname,sex,platform,room_id,room_href,room_name)
             VALUES (%s,%s,%s,%s,%s,%s)
         """
         self.cursor.execute(insert_sql,
-                            (item['anchor_nickname'], 1, 1, item['room_id'], item['room_href'], item['room_title']))
+                            (item['nickname'], 1, 1, item['room_id'], item['room_href'], item['room_name']))
         self.conn.commit()
         return item
 
@@ -94,6 +97,7 @@ class MysqlPipeline(object):
 class MysqlTwistedPipeline(object):
     def __init__(self, dbpool):
         self.dbpool = dbpool
+        self.redis_client = RedisClient()
 
     @classmethod
     def from_settings(cls, settings):
@@ -116,14 +120,24 @@ class MysqlTwistedPipeline(object):
         query = self.dbpool.runInteraction(self.do_insert, item)
         # 因为是异步的，所以错误的查询
         query.addErrback(self.handle_error)  # 处理异常
+        # # 存入Redis礼物数据
+        gift_list = item['gift_list']
+        for gift in gift_list:
+            gift_redis_name = 'gift:' + str(PLATFORM_DOUYU) + ":" + gift['id']  # 平台加礼物ID
+            self.redis_client.getInstance().hmset(gift_redis_name, dict(gift))
+        # 存入Redis主播数据
+        item.pop('gift_list')
+        anchor_redis_name = 'anchor:' + str(PLATFORM_DOUYU) + ":" + item['room_id']
+        self.redis_client.getInstance().hmset(anchor_redis_name, dict(item))
+
 
     def do_insert(self, cursor, item):
         # 执行具体的插入
         insert_sql = """
-                    insert into anthor(nickname,sex,platform,room_id,room_href,room_title)
+                    insert into anthor(nickname,sex,platform,room_id,room_href,room_name)
                     VALUES (%s,%s,%s,%s,%s,%s)
                 """
-        cursor.execute(insert_sql, (item['anchor_nickname'], 1, 1, item['room_id'], item['room_href'], item['room_title']))
+        cursor.execute(insert_sql, (item['nickname'], 1, 1, item['room_id'], item['room_href'], item['room_name']))
 
     def handle_error(self, failure):
         # 处理异步插入的异常

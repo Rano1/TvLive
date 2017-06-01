@@ -146,8 +146,6 @@ class douYuTVDanmu(object):
                         self.log("\t\t_________解析弹幕信息失败:"+str(data))
                 elif a.group(1)==b'dgb':
                     # self.log(repr(data))
-                    danmu_nickname = re.search(b'/nn@=(.*?)/', data)
-                    danmu_gift = re.search(b'gfid@=(.*?)/', data)
                     try:
                         gitf_item = {}
                         gitf_item['type'] = 'dgb'
