@@ -3,7 +3,8 @@
 HOST_DOUYU = "http://open.douyucdn.cn/api/"
 METHOD_DOUYU_ROOM_INFO = "RoomApi/room/"
 
-PLATFORM_DOUYU = 1
+PLATFORM_DOUYU = 1 # 平台：斗鱼
+PLATFORM_HUYA = 2 # 平台：虎牙
 
 class ApiHelper():
 

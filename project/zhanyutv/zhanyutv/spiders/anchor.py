@@ -20,6 +20,7 @@ class AnchorSpider(scrapy.Spider):
 
     all_page = 0  # 总页数
     current_page = 1  # 当前页数
+
     """
     1.获取主播列表页中的主播房间url，交给scrapy下载后进行解析
     1.获取下一页的url并交给scrapy进行下载，下载完成交给parse解析
@@ -29,6 +30,7 @@ class AnchorSpider(scrapy.Spider):
         if self.all_page == 0:
             self.get_all_page(response)
         anchor_list = []
+        anchor_uids = []
         for select in select_list:
             anchor = AncharItem()
             anchor['room_id'] = int(select.xpath('@data-rid').extract()[0])
@@ -41,6 +43,9 @@ class AnchorSpider(scrapy.Spider):
             # 交给主播个人数据解析
             roominfo_url = ApiHelper.get_douyu_roominfo_url(anchor['room_id'])
             print(roominfo_url)
+
+            anchor_uids.append(anchor['room_id'])
+
             yield Request(url=roominfo_url, callback=self.parse_anchor_info)
 
             # 通过ItemLoader加载实例
@@ -55,6 +60,8 @@ class AnchorSpider(scrapy.Spider):
             # item_loader.add_value()
 
             # yield anchor
+
+        print(anchor_uids)
 
         # 提取下一页并交给scrapy进行下载
         if self.current_page < self.all_page:
@@ -75,6 +82,7 @@ class AnchorSpider(scrapy.Spider):
                 anchor_info['room_id'] = result_anchor_info['room_id']
                 # anchor_info['room_href'] = result_anchor_info['room_href']
                 anchor_info['room_name'] = result_anchor_info['room_name']
+                anchor_info['room_status'] = result_anchor_info['room_status']
                 anchor_info['room_thumb'] = result_anchor_info['room_thumb']
                 anchor_info['nickname'] = result_anchor_info['owner_name']
                 anchor_info['avatar'] = result_anchor_info['avatar']

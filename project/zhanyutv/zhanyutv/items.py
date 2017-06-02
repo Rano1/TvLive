@@ -29,6 +29,7 @@ class AncharItem(scrapy.Item):
     room_sid = scrapy.Field()  # 房间SID
     room_name = scrapy.Field()  # 房间名称
     room_thumb = scrapy.Field()  # 房间封面
+    room_status = scrapy.Field()  # 房间状态
     nickname = scrapy.Field()  # 昵称
     avatar = scrapy.Field()  # 头像
     cate_id = scrapy.Field()  # 类别ID

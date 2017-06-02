@@ -120,6 +120,7 @@ class MysqlTwistedPipeline(object):
         query = self.dbpool.runInteraction(self.do_insert, item)
         # 因为是异步的，所以错误的查询
         query.addErrback(self.handle_error)  # 处理异常
+        anthor_id = int(item['room_id'])
         # # 存入Redis礼物数据
         gift_list = item['gift_list']
         for gift in gift_list:
@@ -127,8 +128,10 @@ class MysqlTwistedPipeline(object):
             self.redis_client.getInstance().hmset(gift_redis_name, dict(gift))
         # 存入Redis主播数据
         item.pop('gift_list')
-        anchor_redis_name = 'anchor:' + str(PLATFORM_DOUYU) + ":" + item['room_id']
-        self.redis_client.getInstance().hmset(anchor_redis_name, dict(item))
+        anchor_redis_name = 'anchor:' + str(PLATFORM_DOUYU) + ":" + str(anthor_id)
+        self.redis_client.getInstance().hmset(anchor_redis_name, dict(item))  # 更新数据库数据
+        anchor_id_list_redis_name = 'anchor_id_list:' + str(PLATFORM_DOUYU)
+        self.redis_client.getInstance().sadd(anchor_id_list_redis_name, anthor_id)
 
 
     def do_insert(self, cursor, item):

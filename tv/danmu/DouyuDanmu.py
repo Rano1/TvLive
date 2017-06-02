@@ -152,7 +152,7 @@ class douYuTVDanmu(object):
                         gitf_item['rid'] = re.search(b'/rid@=(.*?)/', data).group(1).decode()
                         gitf_item['gfid'] = int(re.search(b'/gfid@=(.*?)/', data).group(1).decode())
                         gitf_item['uid'] = re.search(b'/uid@=(.*?)/', data).group(1).decode()
-                        gitf_item['nn'] = re.search(b'/nn@=(.*?)/', data).group(1).decode()
+                        gitf_item['nickname'] = re.search(b'/nn@=(.*?)/', data).group(1).decode()
                         gitf_item['level'] = int(re.search(b'/level@=(.*?)/', data).group(1).decode())
                         gfcnt = re.search(b'/gfcnt@=(.*?)/', data)
                         hits = re.search(b'/hits@=(.*?)/', data)
@@ -173,7 +173,7 @@ class douYuTVDanmu(object):
 if __name__ == '__main__':
     # url = 'http://www.douyu.com/301712'
     # url = 'http://www.douyu.com/wt55kai'
-    url = 'https://www.douyu.com/65251'
+    url = 'https://www.douyu.com/2127419'
     danmu = douYuTVDanmu()
     danmu.getInfo(url)
     danmu.connectToDanMuServer()
