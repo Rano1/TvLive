@@ -21,6 +21,10 @@ class AnchorSpider(scrapy.Spider):
     all_page = 0  # 总页数
     current_page = 1  # 当前页数
 
+    # 通过这里面先获取页数，之后进行异步的请求各页的数据
+    def start_requests(self):
+        pass
+
     """
     1.获取主播列表页中的主播房间url，交给scrapy下载后进行解析
     1.获取下一页的url并交给scrapy进行下载，下载完成交给parse解析
