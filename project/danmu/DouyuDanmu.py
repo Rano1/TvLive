@@ -18,11 +18,14 @@ from sql import MongoDBClient
 
 class douYuTVDanmu(object):
     def __init__(self, roomId):
-        proxyIp = "115.213.202.171"
-        proxyPort = 808
-        socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, proxyIp, proxyPort)
-        socket.socket = socks.socksocket
+        proxyIp = "216.189.158.147"
+        proxyPort = 52940 # socks 代理本地端口
+        # self.sock = socks.socksocket()
+        # self.sock.set_proxy(socks.SOCKS5, proxyIp, proxyPort)
         self.mongo_clent = MongoDBClient.MongoDBClient('douyu')
+        # socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, proxyIp, proxyPort)
+        socks.set_default_proxy(socks.PROXY_TYPE_SOCKS5, proxyIp, proxyPort)
+        socket.socket = socks.socksocket
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.codeLocalToServer = 689
         self.serverToLocal = 690

@@ -12,12 +12,17 @@ from twisted.enterprise import adbapi
 import MySQLdb
 import MySQLdb.cursors
 from .db.RedisClient import RedisClient
+from zhanyutv.items import AncharItem
+import config
+
 
 PLATFORM_DOUYU = 1
 
 class ZhanyutvPipeline(object):
     def process_item(self, item, spider):
         # 做存储
+        if isinstance(item, AncharItem):
+            pass
         return item
 
 
@@ -101,15 +106,20 @@ class MysqlTwistedPipeline(object):
 
     @classmethod
     def from_settings(cls, settings):
-        dbparms = dict(
-            host=settings['MYSQL_HOST'],
-            db=settings['MYSQL_DBNAME'],
-            user=settings['MYSQL_USER'],
-            passwd=settings['MYSQL_PASSWORD'],
-            charset="utf8",
-            cursorclass=MySQLdb.cursors.DictCursor,
-            use_unicode=True,
-        )
+        # dbparms = dict(
+        #     host=settings['MYSQL_HOST'],
+        #     db=settings['MYSQL_DBNAME'],
+        #     user=settings['MYSQL_USER'],
+        #     passwd=settings['MYSQL_PASSWORD'],
+        #     charset="utf8",
+        #     cursorclass=MySQLdb.cursors.DictCursor,
+        #     use_unicode=True,
+        # )
+
+        dbparms = config.DB_config.get("mysql")
+        dbparms['db'] = config.database
+        dbparms['cursorclass'] = MySQLdb.cursors.DictCursor
+        dbparms['use_unicode'] = True
 
         dbpool = adbapi.ConnectionPool("MySQLdb", **dbparms)
 
