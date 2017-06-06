@@ -11,8 +11,7 @@ DB_config = {
         'host': HOST,
         'port': 3306,
         'user': 'root',
-        # 'password': '12%^&HGHJ&^%^>LOJGR',
-        'password': '',
+        'password': '12%^&HGHJ&^%^>LOJGR',
         'charset': 'utf8'
     },
     'redis': {
