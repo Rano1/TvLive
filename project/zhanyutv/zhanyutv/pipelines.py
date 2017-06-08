@@ -4,19 +4,21 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
-from scrapy.pipelines.images import ImagesPipeline
 import codecs
 import json
-from scrapy.exporters import JsonItemExporter
-from twisted.enterprise import adbapi
+
 import MySQLdb
 import MySQLdb.cursors
-from .db.RedisClient import RedisClient
-from zhanyutv.items import AncharItem
-import config
+from scrapy.exporters import JsonItemExporter
+from scrapy.pipelines.images import ImagesPipeline
+from twisted.enterprise import adbapi
 
+import config
+from db.redisclient import RedisClient
+from zhanyutv.items import AncharItem
 
 PLATFORM_DOUYU = 1
+
 
 class ZhanyutvPipeline(object):
     def process_item(self, item, spider):
@@ -46,6 +48,7 @@ class JsonWithEncodingPipeline(object):
 
     def spider_closed(self, spider):
         self.file.close()
+
 
 # 调用Scrapy提供的JsonExporter导出JSON文件
 class JsonExporterPipeline(object):
@@ -81,10 +84,11 @@ class MysqlPipeline(object):
 
     @classmethod
     def from_settings(cls, settings):
-        host = settings['MYSQL_HOST']
-        db = settings['MYSQL_DBNAME']
-        user = settings['MYSQL_USER']
-        passwd = settings['MYSQL_PASSWORD']
+        dbparms = config.DB_config.get("mysql")
+        db = config.database
+        host = dbparms['host']
+        user = dbparms['user']
+        passwd = dbparms['password']
         return cls(host, db, user, passwd)
 
     def process_item(self, item, spider):
@@ -106,16 +110,6 @@ class MysqlTwistedPipeline(object):
 
     @classmethod
     def from_settings(cls, settings):
-        # dbparms = dict(
-        #     host=settings['MYSQL_HOST'],
-        #     db=settings['MYSQL_DBNAME'],
-        #     user=settings['MYSQL_USER'],
-        #     passwd=settings['MYSQL_PASSWORD'],
-        #     charset="utf8",
-        #     cursorclass=MySQLdb.cursors.DictCursor,
-        #     use_unicode=True,
-        # )
-
         dbparms = config.DB_config.get("mysql")
         dbparms['db'] = config.database
         dbparms['cursorclass'] = MySQLdb.cursors.DictCursor
@@ -127,7 +121,7 @@ class MysqlTwistedPipeline(object):
 
     def process_item(self, item, spider):
         # 使用twisted将mysql插入变成异步执行
-        query = self.dbpool.runInteraction(self.do_insert, item)
+        query = self.dbpool.runInteraction(self.do_insert_anthor, item)
         # 因为是异步的，所以错误的查询
         query.addErrback(self.handle_error)  # 处理异常
         anthor_id = int(item['room_id'])
@@ -144,14 +138,43 @@ class MysqlTwistedPipeline(object):
         anchor_id_list_redis_name = 'anchor_id_list:' + str(PLATFORM_DOUYU)
         self.redis_client.getInstance().sadd(anchor_id_list_redis_name, anthor_id)
 
+    # 保存主播数据
+    def do_insert_anthor(self, cursor, item):
+        # 判断主播是否存在
+        exist_sql = "select * from anthor where platform=%s and room_id=%s" % (1, item['room_id'])
+        cursor.execute(exist_sql)
+        cursor.fetchall()
+        if cursor.rowcount == 0:
+            print("不存在主播数据，入库")
+            # 执行具体的插入
+            insert_sql = """
+                                insert into anthor(nickname,avatar,sex,weight,platform,room_id,room_href,room_name,room_thumb,cate_id,fans_num)
+                                VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+                            """
+            cursor.execute(insert_sql, (
+                item['nickname'], item['avatar'], item['sex'], item['weight'], 1, item['room_id'], item['room_href'],
+                item['room_name'], item['room_thumb'], item['cate_id'], item['fans_num']))
+        else:
+            print("存在主播数据")
 
-    def do_insert(self, cursor, item):
-        # 执行具体的插入
-        insert_sql = """
-                    insert into anthor(nickname,sex,platform,room_id,room_href,room_name)
-                    VALUES (%s,%s,%s,%s,%s,%s)
-                """
-        cursor.execute(insert_sql, (item['nickname'], 1, 1, item['room_id'], item['room_href'], item['room_name']))
+    # 保存主播礼物数据
+    def do_insert_gift(self, cursor, item):
+        # 判断主播是否存在
+        exist_sql = "select * from gift where platform=%s and gid=%s" % (1, item['room_id'])
+        cursor.execute(exist_sql)
+        cursor.fetchall()
+        if cursor.rowcount == 0:
+            print("不存在主播数据，入库")
+            # 执行具体的插入
+            insert_sql = """
+                                insert into gift(gid,name,desc,intro,platform,cost,contribution)
+                                VALUES (%s,%s,%s,%s,%s,%s,%s)
+                            """
+            cursor.execute(insert_sql, (
+                item['gid'], item['name'], item['desc'], item['intro'], item['platform'], item['cost'], item['contribution']))
+        else:
+            print("存在主播数据")
+
 
     def handle_error(self, failure):
         # 处理异步插入的异常

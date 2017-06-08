@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
-import scrapy
-import re
 import json
+
+import scrapy
 from scrapy.http import Request
-# from scrapy.loader import ItemLoader
-from urllib import parse
-from zhanyutv.items import AncharItem
-from zhanyutv.items import AncharItemLoader
+
+from db.redisclient import RedisClient
 from zhanyutv.constants.tv_api import ApiHelper
-from zhanyutv.db.RedisClient import RedisClient
+# from scrapy.loader import ItemLoader
+from zhanyutv.items import AncharItem
 
 
 # 主播数据爬取(通过接口的方式)

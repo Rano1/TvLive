@@ -1,12 +1,11 @@
 # Redis工具
 import redis
 import config
-__all__ = ['MongoDBClient']
+__all__ = ['RedisClient']
 
 
 class RedisClient(object):
     def __init__(self):
-        
         host = config.DB_config.get('redis').get('host')
         port = config.DB_config.get('redis').get('port')
         password = config.DB_config.get('redis').get('password')

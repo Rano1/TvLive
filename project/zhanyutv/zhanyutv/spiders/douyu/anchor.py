@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
-import scrapy
-import re
 import json
+
+import scrapy
 from scrapy.http import Request
-# from scrapy.loader import ItemLoader
-from urllib import parse
-from zhanyutv.items import AncharItem
-from zhanyutv.items import AncharItemLoader
+
+from db.redisclient import RedisClient
 from zhanyutv.constants.tv_api import ApiHelper
-from zhanyutv.db.RedisClient import RedisClient
+# from scrapy.loader import ItemLoader
+from zhanyutv.items import AncharItem
 
 
 # 主播数据爬取(通过接口的方式)
@@ -48,6 +47,8 @@ class AnchorSpider(scrapy.Spider):
                         anchor['room_thumb'] = anchor_item['room_src']
                         anchor['nickname'] = anchor_item['nickname']
                         anchor['avatar'] = anchor_item['avatar']
+                        anchor['sex'] = 0
+                        anchor['weight'] = 0  # owner_weight
                         anchor['cate_id'] = anchor_item['cate_id']
                         anchor['start_time'] = anchor_item['show_time']
                         anchor['fans_num'] = anchor_item['fans']
@@ -59,10 +60,8 @@ class AnchorSpider(scrapy.Spider):
                         # 如果有数据了，那就不获取了
                         anchor_redis_name = 'anchor:1' + ":" + str(anchor['room_id'])
                         if self.redis_client.exists(anchor_redis_name):
-                            print("存在主播数据")
                             yield anchor
                         else:
-                            print("不存在主播数据")
                             yield Request(url=roominfo_url, callback=self.parse_anchor_info)
                 else:
                     is_end = True
@@ -93,6 +92,8 @@ class AnchorSpider(scrapy.Spider):
                 anchor_info['room_thumb'] = result_anchor_info['room_thumb']
                 anchor_info['nickname'] = result_anchor_info['owner_name']
                 anchor_info['avatar'] = result_anchor_info['avatar']
+                anchor_info['sex'] = 0
+                anchor_info['weight'] = 0  # owner_weight
                 anchor_info['cate_id'] = result_anchor_info['cate_id']
                 anchor_info['cate_name'] = result_anchor_info['cate_name']
                 anchor_info['start_time'] = result_anchor_info['start_time']

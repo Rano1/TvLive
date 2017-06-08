@@ -12,14 +12,17 @@ from scrapy.loader.processors import MapCompose
 from scrapy.loader.processors import TakeFirst
 from scrapy.loader.processors import Join
 
+
 class ZhanyutvItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
 
+
 class AncharItemLoader(ItemLoader):
     # 自定义ItemLoader
     default_input_processor = TakeFirst()
+
 
 class AncharItem(scrapy.Item):
     room_id = scrapy.Field(
@@ -32,6 +35,7 @@ class AncharItem(scrapy.Item):
     room_status = scrapy.Field()  # 房间状态
     nickname = scrapy.Field()  # 昵称
     avatar = scrapy.Field()  # 头像
+    sex = scrapy.Field()  # 性别
     cate_id = scrapy.Field()  # 类别ID
     cate_name = scrapy.Field()  # 类别名称
     weight = scrapy.Field()  # 主播体重
@@ -39,3 +43,13 @@ class AncharItem(scrapy.Item):
     fans_num = scrapy.Field()  # 粉丝数
     online_num = scrapy.Field()  # 在线人数
     gift_list = scrapy.Field()  # 礼物列表
+
+
+class GiftItem(scrapy.Item):
+    gid = scrapy.Field()  # 礼物ID
+    name = scrapy.Field()  # 礼物名称
+    desc = scrapy.Field()  # 礼物描述
+    intro = scrapy.Field()  # 礼物介绍
+    platform = scrapy.Field()  # 平台
+    cost = scrapy.Field()  # 礼物费用
+    contribution = scrapy.Field()  # 礼物贡献
