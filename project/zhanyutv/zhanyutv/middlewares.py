@@ -7,7 +7,7 @@
 
 from scrapy import signals
 from fake_useragent import UserAgent
-
+import zhanyutv.constants.agents
 
 class ZhanyutvSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -57,7 +57,7 @@ class ZhanyutvSpiderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class RandomUserAgentMiddlware():
+class RandomUserAgentMiddlware(object):
     # 随机更换user-agent
     def __init__(self, crawler):
         super(RandomUserAgentMiddlware, self).__init__()
@@ -72,5 +72,4 @@ class RandomUserAgentMiddlware():
     def process_request(self, request, spider):
         def get_ua():
             return getattr(self.ua, self.ua_type)
-
         request.headers.setdefault('User-Agent', get_ua())

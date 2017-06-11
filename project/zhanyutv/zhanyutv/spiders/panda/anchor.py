@@ -7,7 +7,7 @@ from scrapy.http import Request
 from urllib import parse
 from zhanyutv.items import AncharItem
 from zhanyutv.items import AncharItemLoader
-from zhanyutv.constants.tv_api import ApiHelper
+from api import apiconstants
 
 # 主播数据爬取
 class AnchorSpider(scrapy.Spider):
@@ -33,7 +33,7 @@ class AnchorSpider(scrapy.Spider):
         print("all_page :" + str(all_page))
         # 提取下一页并交给scrapy进行下载
         while current_page <= all_page:
-            url = ApiHelper.get_douyu_list_url(current_page)
+            url = apiconstants.get_douyu_list_url(current_page)
             print(url)
             current_page = current_page + 1
             yield Request(url=url, callback=self.parse)
@@ -58,7 +58,7 @@ class AnchorSpider(scrapy.Spider):
             anchor['online_num'] = select.xpath('.//span[contains(@class ,"dy-num")]/text()').extract()[0]
             anchor_list.append(anchor)
             # 交给主播个人数据解析
-            roominfo_url = ApiHelper.get_douyu_roominfo_url(anchor['room_id'])
+            roominfo_url = apiconstants.get_douyu_roominfo_url(anchor['room_id'])
             # print(roominfo_url)
 
             anchor_uids.append(anchor['room_id'])

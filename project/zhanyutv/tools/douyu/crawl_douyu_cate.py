@@ -1,13 +1,12 @@
 import requests
-import api.apiconstants
-from db.redisclient import RedisClient
+from api import apiconstants
 from db.mysqlclient import MysqlClient
+from db.data.redis_data import RedisData
 
 class DouyuCateCrawl(object):
     def __init__(self):
-        self.redis_client = RedisClient().getInstance()
         self.mysql_conn = MysqlClient().getConn()
-        self.platform = api.apiconstants.PLATFORM_DOUYU
+        self.platform = apiconstants.PLATFORM_DOUYU
 
     def getCateList(self):
         url = 'http://open.douyucdn.cn/api/RoomApi/game'
@@ -30,8 +29,7 @@ class DouyuCateCrawl(object):
             cate['cate_src'] = item['game_src']
             cate['cate_icon'] = item['game_icon']
             # 存入Redis
-            cate_redis_name = 'cate:' + str(self.platform) + ":" + cate['cate_id']  # 平台类别
-            self.redis_client.hmset(cate_redis_name, dict(cate))
+            RedisData.add_cate_info(self.platform, cate)
             # 存入Mysql
             exist_sql = "select * from cate where platform=%s and cate_id=%s" % (self.platform, cate['cate_id'])
             try:

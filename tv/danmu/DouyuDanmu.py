@@ -173,7 +173,7 @@ class douYuTVDanmu(object):
 if __name__ == '__main__':
     # url = 'http://www.douyu.com/301712'
     # url = 'http://www.douyu.com/wt55kai'
-    url = 'https://www.douyu.com/2127419'
+    url = 'https://www.douyu.com/2086376'
     danmu = douYuTVDanmu()
     danmu.getInfo(url)
     danmu.connectToDanMuServer()

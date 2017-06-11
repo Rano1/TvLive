@@ -13,11 +13,10 @@ from scrapy.exporters import JsonItemExporter
 from scrapy.pipelines.images import ImagesPipeline
 from twisted.enterprise import adbapi
 
-import config
+from conf import config
+from api import apiconstants
 from db.redisclient import RedisClient
 from zhanyutv.items import AncharItem
-
-PLATFORM_DOUYU = 1
 
 
 class ZhanyutvPipeline(object):
@@ -129,13 +128,13 @@ class MysqlTwistedPipeline(object):
         gift_list = item['gift_list']
         if gift_list:
             for gift in gift_list:
-                gift_redis_name = 'gift:' + str(PLATFORM_DOUYU) + ":" + gift['id']  # 平台加礼物ID
+                gift_redis_name = 'gift:' + str(apiconstants.PLATFORM_DOUYU) + ":" + gift['id']  # 平台加礼物ID
                 self.redis_client.getInstance().hmset(gift_redis_name, dict(gift))
             # 存入Redis主播数据
             item.pop('gift_list')
-        anchor_redis_name = 'anchor:' + str(PLATFORM_DOUYU) + ":" + str(anthor_id)
+        anchor_redis_name = 'anchor:' + str(apiconstants.PLATFORM_DOUYU) + ":" + str(anthor_id)
         self.redis_client.getInstance().hmset(anchor_redis_name, dict(item))  # 更新数据库数据
-        anchor_id_list_redis_name = 'anchor_id_list:' + str(PLATFORM_DOUYU)
+        anchor_id_list_redis_name = 'anchor_id_list:' + str(apiconstants.PLATFORM_DOUYU)
         self.redis_client.getInstance().sadd(anchor_id_list_redis_name, anthor_id)
 
     # 保存主播数据

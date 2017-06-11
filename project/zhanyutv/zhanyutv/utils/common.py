@@ -1,4 +1,5 @@
 import hashlib
+import re
 
 
 # 获取MD5(先判断传入的参数是否是utf8)

@@ -1,7 +1,8 @@
 # Redis工具
-import config
 import MySQLdb
 import MySQLdb.cursors
+
+from conf import config
 
 __all__ = ['MysqlClient']
 

@@ -4,8 +4,8 @@ import json
 import scrapy
 from scrapy.http import Request
 
+from api import apiconstants
 from db.redisclient import RedisClient
-from zhanyutv.constants.tv_api import ApiHelper
 # from scrapy.loader import ItemLoader
 from zhanyutv.items import AncharItem
 
@@ -14,7 +14,7 @@ from zhanyutv.items import AncharItem
 class AnchorSpider(scrapy.Spider):
     name = "douyu_anchor"
     allowed_domains = []
-    start_urls = [ApiHelper.get_api_douyu_list_url(0)]
+    start_urls = [apiconstants.get_api_douyu_list_url(0)]
 
     """
     1.获取主播列表页中的主播房间url，交给scrapy下载后进行解析
@@ -54,7 +54,7 @@ class AnchorSpider(scrapy.Spider):
                         anchor_list.append(anchor)
                         anchor_uids.append(anchor['room_id'])
                         # 交给主播个人数据解析
-                        roominfo_url = ApiHelper.get_douyu_roominfo_url(anchor['room_id'])
+                        roominfo_url = apiconstants.get_douyu_roominfo_url(anchor['room_id'])
                         # 如果有数据了，那就不获取了
                         anchor_redis_name = 'anchor:1' + ":" + str(anchor['room_id'])
                         if self.redis_client.exists(anchor_redis_name):
@@ -74,7 +74,7 @@ class AnchorSpider(scrapy.Spider):
         if is_end:
             print("爬取结束")
         else:
-            url = ApiHelper.get_api_douyu_list_url(self.offset)
+            url = apiconstants.get_api_douyu_list_url(self.offset)
             yield Request(url=url, callback=self.parse)
 
     # 爬取主播个人数据

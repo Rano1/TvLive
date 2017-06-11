@@ -1,7 +1,7 @@
 # coding=utf-8
 
-# HOST = "192.168.2.105"
-HOST = "192.168.135.128"
+HOST = "192.168.2.105"
+# HOST = "192.168.135.128"
 
 DB_config = {
     # 'db_type': 'mongodb',
@@ -11,7 +11,6 @@ DB_config = {
         'host': HOST,
         'port': 3306,
         'user': 'root',
-        # 'password': '12%^&HGHJ&^%^>LOJGR',
         'password': '1qaz*2WSX',
         'charset': 'utf8'
     },

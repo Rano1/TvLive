@@ -1,6 +1,8 @@
 # Redis工具
 import redis
-import config
+
+from conf import config
+
 __all__ = ['RedisClient']
 
 

@@ -8,6 +8,7 @@
 #     http://doc.scrapy.org/en/latest/topics/settings.html
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
+import os
 
 BOT_NAME = 'zhanyutv'
 
@@ -57,7 +58,8 @@ ROBOTSTXT_OBEY = False
 DOWNLOADER_MIDDLEWARES = {
     # 'zhanyutv.middlewares.MyCustomDownloaderMiddleware': 543,
     'zhanyutv.middlewares.RandomUserAgentMiddlware': 543,
-    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    # 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None
 }
 
 # Enable or disable extensions
@@ -98,6 +100,10 @@ ITEM_PIPELINES = {
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
+import sys
+
+BASE_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.join(BASE_DIR, 'zhanyutv'))
 
 RANDOM_UA_TYPE = "random"
 
