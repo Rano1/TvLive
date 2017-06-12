@@ -1,0 +1,35 @@
+#ZhihuMessage {
+    width: 300px;
+    height: 400px;
+}
+
+#waiting {
+    padding-top: 50%;
+    text-align: center;
+}
+
+.unread {
+    background-color: #E3F2FD;
+}
+
+.zg-right {
+    float: right;
+}
+
+
+/*链接*/
+a:link {
+    color: #259;
+}
+
+a:visited {
+    color: #259;
+}
+
+a:hover {
+    color: #259;
+}
+
+a:active {
+    color: #259;
+}
