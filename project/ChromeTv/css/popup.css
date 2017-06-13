@@ -1,0 +1,25 @@
+.btn-primary {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.toast {
+    display: none;
+    /*position: fixed;*/
+    /*top: 10%;*/
+    /*left: 50%;*/
+    margin: auto;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    z-index: 4000;
+    background-color: #4D4D4D;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 7px;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}

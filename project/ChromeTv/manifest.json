@@ -21,33 +21,34 @@
         "https://passport.douyu.com/*"
       ],
       "js": [
-        //        "js/github_script.js",
         "js/douyu_script.js"
       ],
-      "run_at": "document_start",  //run_at有document_start | idel | end 三个值可选
-      "all_frames": false //只在最上层frame中运行
+      "run_at": "document_start",
+      //run_at有document_start | idel | end 三个值可选
+      "all_frames": false
+      //只在最上层frame中运行
     }
   ],
-  "background": {
+//  "background": {
+//    //    "scripts": [
+//    //      "js/eventPage.js"
+//    //    ],
 //    "scripts": [
-//      "js/eventPage.js"
+//      "background.js"
 //    ],
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+//    "persistent": false
+//  },
   "permissions": [
     "tabs",
-    "http://*/",
-    "https://*/",
-    "https://*",
-    "http://*/*",
     "alarms",
     "activeTab",
     "https://ajax.googleapis.com/",
-    "*://*.zhihu.com/",
     "cookies",
     "notifications",
-    "*://*.google.com",
-    "*://*.douyu.com"
+    "*://*.douyu.com/*"
+    //    "*://*.google.com",
+    //    "http://*/",
+    //    "https://*/",
+    //    "http://*/*",
   ]
 }

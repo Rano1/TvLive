@@ -4,8 +4,8 @@
 // document.write('<script src="https://unpkg.com/axios/dist/axios.min.js"></script>');
 $(document).ready(getNotice)
 
-$("#douyu").bind("click", function () {
-    var createProperties = new Object();
+$("#douyu_tab").bind("click", function () {
+    // var createProperties = new Object();
     // createProperties.url = "https://passport.douyu.com";
     // chrome.tabs.create(createProperties);
     // document.getElementsByName("username")[0].value = "hacker_ma@163.com";
@@ -19,18 +19,86 @@ $("#douyu").bind("click", function () {
     // });
     // get_cookies();
     // update_account_ui();
-    // _showDataOnPage("11");
-    set_account();
-})
+    // _showDataOnPage("你有新的认证任务");
+    // get_user_account();
+    // showToast();
+    getCookiesAll();
+});
 
-function set_account() {
-    var code = 'document.getElementsByName("username")[0].value = "hacker_ma@163.com"'
-    // chrome.tabs.executeScript(null,{code:code})
-    chrome.tabs.executeScript(null, {file: "js/douyu_script.js"});
+
+$("#btn-refresh").bind("click", function () {
+    get_user_account();
+});
+
+function set_account(account, password) {
+    var username_code = 'document.getElementsByName("username")[0].value = "' + account + '"'
+    var password_code = 'document.getElementsByName("password")[0].value = "' + password + '"'
+    chrome.tabs.executeScript(null, {code: username_code})
+    chrome.tabs.executeScript(null, {code: password_code})
+    document.getElementsByName("username")[0].value = "hacker_ma@163.com";
+    // chrome.tabs.executeScript(null, {file: "js/douyu_script.js"});
 }
 
 function getNotice() {
     // get_user_account();
+}
+
+function getCookiesAll() {
+    var url = "https://www.douyu.com";
+    console.log("Looking for cookies on: " + url);
+    var cookiesStr = "";
+    chrome.cookies.getAll({
+        url: url
+    }, function (cookieL) {
+        console.log("I have " + cookieL.length + " cookies");
+        for (var x = 0; x < cookieL.length; x++) {
+            var cCookie = cookieL[x];
+            cookiesStr = cookiesStr + cCookie['name'] + "=" + cCookie['value'] + ";"
+            console.log(cCookie);
+            // if(filterMatchesCookie(filterURL,cCookie.name,cCookie.domain,cCookie.value)){
+            //     var cUrl = (cCookie.secure)?"https://":"http://"+cCookie.domain+cCookie.path;
+            //     deleteCookie(cUrl,cCookie.name,cCookie.storeId,cCookie)
+            // }
+        }
+        console.log(cookiesStr);
+        document.getElementById("cookieContent").value = cookiesStr;
+        // port.postMessage({
+        //     action : "getall",
+        //     url : url,
+        //     cks : cks
+        // });
+    });
+}
+
+function createCookiesList() {
+    // var cookie = $(".cookie_details_template").clone().removeClass("cookie_details_template");
+}
+// function getCookiesAll() {
+//     var url = "https://passport.douyu.com/";
+//     console.log("Looking for cookies on: " + url);
+//     chrome.cookies.getAll({
+//         url : url
+//     }, function(cks) {
+//         console.log("I have " + cks.length + " cookies");
+//         port.postMessage({
+//             action : "getall",
+//             url : url,
+//             cks : cks
+//         });
+//     });
+// }
+
+function showToast(showText) {
+    document.getElementById('toast').innerHTML = showText;
+    $("#toast").fadeIn(function () {
+        setTimeout(function () {
+            $("#toast").fadeOut();
+        }, 2500);
+
+    });
+    $(this).animate({backgroundColor: "#B3FFBD"}, 300, function () {
+        $(this).animate({backgroundColor: "#EDEDED"}, 500);
+    });
 }
 
 //获取用户账号密码
@@ -61,7 +129,8 @@ function get_user_account() {
     $.get(ajaxURL, function (result) {
         var result_data = JSON.parse(result);
         if (result_data.code == 0) {
-            alert("success")
+            showToast("获取成功");
+            set_account("hacker_ma@163.com", "123456");
             // document.getElementsByName("username")[0].value = "hacker_ma@163.com";
             // document.getElementsByName("password")[0].value = "123456";
         } else {
@@ -82,7 +151,6 @@ function upload_user_cookies() {
     });
 }
 
-
 function update_account_ui() {
     var bgPage = chrome.extension.getBackgroundPage();
     // bgPage.showDialog();
@@ -91,7 +159,7 @@ function update_account_ui() {
 
     });
 }
-//将data数据以桌面通知的方式显示给用户
+//将data数据以桌面通知的方式显示给用户（用于通知用户有新的任务进来了）
 function _showDataOnPage(data) {
 
     //显示一个桌面通知
@@ -125,62 +193,4 @@ function _showDataOnPage(data) {
         alert('亲，你的浏览器不支持啊！');
     }
 
-}
-
-var cookieList = new Array();
-function get_cookies() {
-    // console.log(document.cookie)
-
-    var filteredCookies = [];
-    var filterURL = {}
-    filterURL.url = "https://passport.douyu.com/";
-    filterURL.domain = "passport.douyu.com";
-
-    var cookies = chrome.cookies.getAll(filterURL, function (cks) {
-        var currentC;
-        for (var i = 0; i < cks.length; i++) {
-            currentC = cks[i];
-
-            if (filters.name != undefined && currentC.name.toLowerCase().indexOf(filters.name.toLowerCase()) == -1)
-                continue;
-            if (filters.domain != undefined && currentC.domain.toLowerCase().indexOf(filters.domain.toLowerCase()) == -1)
-                continue;
-            if (filters.secure != undefined && currentC.secure.toLowerCase().indexOf(filters.secure.toLowerCase()) == -1)
-                continue;
-            if (filters.session != undefined && currentC.session.toLowerCase().indexOf(filters.session.toLowerCase()) == -1)
-                continue;
-
-            for (var x = 0; x < data.readOnly.length; x++) {
-                try {
-                    var lock = data.readOnly[x];
-                    if (lock.name == currentC.name && lock.domain == currentC.domain) {
-                        currentC.isProtected = true;
-                        break;
-                    }
-                } catch (e) {
-                    console.error(e.message);
-                    delete data.readOnly[x];
-                }
-            }
-            filteredCookies.push(currentC);
-        }
-        cookieList = filteredCookies;
-
-        if (cookieList.length == 0) {
-            swithLayout();
-            setEvents();
-            setLoaderVisible(false);
-            return;
-        }
-
-        cookieList.sort(function (a, b) {
-            if (preferences.sortCookiesType == "domain_alpha") {
-                var compDomain = a.domain.toLowerCase().localeCompare(b.domain.toLowerCase());
-                if (compDomain)
-                    return compDomain;
-            }
-            return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-        });
-        console.log(cookieList)
-    });
 }

@@ -4,57 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/zui.min.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="css/zhihuMessage.css">
-    <script src="lib/jquery-2.0.3.min.js"></script>
-    <script src="lib/zui.lite.min.js"></script>
-    <script src="js/popup.js"></script>
     <title>菜单</title>
 </head>
 <body>
 <div class="example" id="ZhihuMessage">
     <ul id="myTab" class="nav nav-tabs">
         <li class="active">
-            <a href="#notice" data-toggle="tab">消息</a>
+            <a id="douyu_tab" href="https://passport.douyu.com" data-toggle="tab">斗鱼</a>
         </li>
-        <li class>
-            <a id="douyu" href="https://passport.douyu.com" data-toggle="tab">斗鱼</a>
+        <li>
+            <a href="#notice" data-toggle="tab">消息</a>
         </li>
     </ul>
 
-    <input class="ipt" type="text" name="username" placeholder="输入昵称" data-i18n="Login.userName">
-
-    <div class="cookie-table">
-        <label class="formLabel" i18n="domain"></label>
-        <div><textarea rows="5" class="value input" type="textarea" spellcheck="false" disabled="disabled"></textarea>
-        </div>
-    </div>
-
     <div>
-        <ul>
-            <li><h6><span class="label label-Default">数据</span></h6></li>
-            <li><input id="txt-payUrl" type="text" class="form-control-user" placeholder="支付授权目录" required autofocus
-                       value="onelaughcs.cn"/></li>
-            <li><h6><span class="label label-Default">回调域名</span></h6></li>
-            <li><input id="txt-callUrl" type="text" class="form-control-user" placeholder="OAuth2.0授权回调"
-                       value="onelaughcs.cn"/></li>
-            <li id="li-btn-update"><input type="button" id="btn-update" class="btn btn-primary " value="确定更新"
-                                          onclick="btnClickEvent()"/></li>
-        </ul>
+
     </div>
 
     <div class="tab-content">
-        <div id="notice" class="list list-condensed tab-pane active">
-            <header>
-                <!-- <h3><i class="icon-list-ul icon-border-circle"></i> 消息 &nbsp;</h3> -->
-            </header>
+        <div id="douyu_content" class="list list-condensed tab-pane active">
             <section id="noticeSection" class="items items-hover">
-                <div id="waiting"><i class="icon icon-spin icon-spinner-snake"></i>&nbsp;加载中
-                </div>
-                <!-- item start here -->
+                <ul>
+                    <li><h6><span class="label label-Default">账号</span></h6></li>
+                    <li><input id="username" name="username" type="text" class="form-control-user" placeholder="账号"
+                               required
+                               autofocus value=""/></li>
+                    <li><h6><span class="label label-Default">Cookies</span></h6></li>
+                    <li><textarea id="cookieContent" rows="5" class="value input" type="textarea" spellcheck="false"
+                                  disabled="disabled"></textarea></li>
+                    <li id="li-btn-update">
+                        <input type="button" id="btn-refresh" class="btn btn-primary"
+                               value="刷新账号"/>
+                    </li>
+                    <li id="li-btn-upload">
+                        <input type="button" id="btn-upload" class="btn btn-primary"
+                               value="提交上传"/>
+                    </li>
+                </ul>
             </section>
             <footer>
             </footer>
         </div>
+        <!--<div id="notice" class="list list-condensed tab-pane active">-->
+        <!--<section id="noticeSection" class="items items-hover">-->
+        <!--<div id="waiting"><i class="icon icon-spin icon-spinner-snake"></i>&nbsp;加载中-->
+        <!--</div>-->
+        <!--&lt;!&ndash; item start here &ndash;&gt;-->
+        <!--</section>-->
+        <!--<footer>-->
+        <!--</footer>-->
+        <!--</div>-->
         <!--<div id="follow" class="list list-condensed tab-pane">-->
         <!--<header>-->
         <!--&lt;!&ndash; <h3><i class="icon-list-ul icon-border-circle"></i> 消息 &nbsp;</h3> &ndash;&gt;-->
@@ -75,7 +76,13 @@
         <!--<footer>-->
         <!--</footer>-->
         <!--</div>-->
+
+        <!--<div id="copiedToast" class="toast" i18n="Copied_clipboard"></div>-->
+        <div id="toast" class="toast" i18n="Copied_clipboard"></div>
     </div>
 </div>
 </body>
+<script src="lib/jquery-2.0.3.min.js"></script>
+<script src="lib/zui.lite.min.js"></script>
+<script src="js/popup.js"></script>
 </html>

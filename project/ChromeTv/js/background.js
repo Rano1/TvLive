@@ -1,12 +1,23 @@
-// Copyright (c) 2011 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+console.log("Starting background")
 
-// Called when the user clicks on the browser action.
-chrome.browserAction.onClicked.addListener(function(tab) {
-    // No tabs or host permissions needed!
-    console.log('Turning ' + tab.url + ' red!');
-    chrome.tabs.executeScript({
-        code: 'document.body.style.backgroundColor="red"'
+
+chrome.runtime.onConnect.addListener(function () {
+    
+})
+
+function getCookiesAll(port, message) {
+    chrome.tabs.get(message.tabId, function (tab) {
+        var url = tab.url;
+        console.log("Looking for cookies on: " + url);
+        chrome.cookies.getAll({
+            url: url
+        }, function (cks) {
+            console.log("I have " + cks.length + " cookies");
+            port.postMessage({
+                action: "getall",
+                url: url,
+                cks: cks
+            });
+        });
     });
-});
+}
