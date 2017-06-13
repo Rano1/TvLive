@@ -1,8 +1,20 @@
 console.log("Starting background")
 
 
+chrome.runtime.onLaunched.addListener(function () {
+    chrome.app.window.create('index.html', {
+        id: 'wechat_web',
+        width: 1000,
+        height: 700,
+        maxWidth: 1000,
+        maxHeight: 1000,
+        minWidth: 700,
+        minHeight: 700
+    });
+});
+
 chrome.runtime.onConnect.addListener(function () {
-    
+
 })
 
 function getCookiesAll(port, message) {

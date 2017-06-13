@@ -3,11 +3,9 @@
  */
 // document.write('<script src="https://unpkg.com/axios/dist/axios.min.js"></script>');
 $(document).ready(getNotice)
+show_clock()
 
 $("#douyu_tab").bind("click", function () {
-    // var createProperties = new Object();
-    // createProperties.url = "https://passport.douyu.com";
-    // chrome.tabs.create(createProperties);
     // document.getElementsByName("username")[0].value = "hacker_ma@163.com";
     // document.getElementsByName("password")[0].value = "123456";
     // chrome.tabs.executeScript(null, {
@@ -29,6 +27,34 @@ $("#douyu_tab").bind("click", function () {
 $("#btn-refresh").bind("click", function () {
     get_user_account();
 });
+
+$("#btn-douyu-open").bind("click", function () {
+    // var createProperties = new Object();
+    // createProperties.url = "https://passport.douyu.com";
+    // chrome.tabs.create(createProperties);
+    logoutDouyu();
+});
+
+//检测登录状态
+function checkLoginStatus() {
+
+    var code = 'document.getElementsByTagName("o-login fl hide")[0]';
+    chrome.tabs.execScript( , {})
+}
+
+//退出斗鱼
+function logoutDouyu() {
+    var logout_code = 'document.getElementsByClassName("logout")[0].click()'
+    chrome.tabs.executeScript(null, {code: logout_code})
+    var logout_confim_code = 'document.getElementsByClassName("aui_state_highlight")[0].click()'
+    chrome.tabs.executeScript(null, {code: logout_confim_code})
+}
+
+var username = localStorage.getItem("username");
+// document.getElementById("btn-save").onclick = save_data;
+document.getElementsByName("username")[0].value = username;
+
+
 
 function set_account(account, password) {
     var username_code = 'document.getElementsByName("username")[0].value = "' + account + '"'
@@ -192,5 +218,27 @@ function _showDataOnPage(data) {
     } else {
         alert('亲，你的浏览器不支持啊！');
     }
+}
 
+function save_data(username) {
+    //存入localstorage
+    localStorage.setItem("username", username);
+}
+
+/**
+ * 显示时间
+ */
+function show_clock() {
+    var clock_div = document.getElementById('clock_div');
+    //
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = (m >= 10) ? m : ('0' + m);
+    s = (s >= 10) ? s : ('0' + s);
+    clock_div.innerHTML = h + ":" + m + ":" + s;
+    setTimeout(function () {
+        show_clock()
+    }, 1000);
 }
