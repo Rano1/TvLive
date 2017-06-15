@@ -3,15 +3,15 @@ from api import apiconstants
 from db.mysqlclient import MysqlClient
 from db.data.redis_data import RedisData
 
+
+# 爬取斗鱼分类列表
 class DouyuCateCrawl(object):
     def __init__(self):
         self.mysql_conn = MysqlClient().getConn()
         self.platform = apiconstants.PLATFORM_DOUYU
 
     def getCateList(self):
-        url = 'http://open.douyucdn.cn/api/RoomApi/game'
-        print(url)
-        data = requests.get(url).json()
+        data = requests.get(apiconstants.URL_DOUYU_CATE).json()
         if data.get('error') == 0:
             print(data)
             self.saveCateList(data['data'])

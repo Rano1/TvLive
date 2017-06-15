@@ -46,10 +46,11 @@ class AncharItem(scrapy.Item):
 
 
 class GiftItem(scrapy.Item):
-    gid = scrapy.Field()  # 礼物ID
+    gfid = scrapy.Field()  # 礼物ID
     name = scrapy.Field()  # 礼物名称
+    type = scrapy.Field()  # 礼物类型
     desc = scrapy.Field()  # 礼物描述
-    intro = scrapy.Field()  # 礼物介绍
+    price = scrapy.Field()  # 礼物费用
     platform = scrapy.Field()  # 平台
-    cost = scrapy.Field()  # 礼物费用
-    contribution = scrapy.Field()  # 礼物贡献
+    small_icon = scrapy.Field()  # 礼物图片
+    animation_icon = scrapy.Field()  # 礼物图片（动态）

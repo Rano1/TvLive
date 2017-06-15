@@ -1,7 +1,7 @@
 # coding=utf-8
 
-HOST = "192.168.2.105"
-# HOST = "192.168.135.128"
+# HOST = "192.168.2.105"
+HOST = "192.168.135.128"
 
 DB_config = {
     # 'db_type': 'mongodb',

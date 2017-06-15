@@ -17,7 +17,8 @@ from conf import config
 from api import apiconstants
 from db.redisclient import RedisClient
 from zhanyutv.items import AncharItem
-
+from db.data.redis_data import RedisData
+from zhanyutv.items import GiftItem
 
 class ZhanyutvPipeline(object):
     def process_item(self, item, spider):
@@ -105,7 +106,7 @@ class MysqlPipeline(object):
 class MysqlTwistedPipeline(object):
     def __init__(self, dbpool):
         self.dbpool = dbpool
-        self.redis_client = RedisClient()
+        self.redis_client = RedisClient().getInstance()
 
     @classmethod
     def from_settings(cls, settings):
@@ -128,19 +129,29 @@ class MysqlTwistedPipeline(object):
         gift_list = item['gift_list']
         if gift_list:
             for gift in gift_list:
-                gift_redis_name = 'gift:' + str(apiconstants.PLATFORM_DOUYU) + ":" + gift['id']  # 平台加礼物ID
-                self.redis_client.getInstance().hmset(gift_redis_name, dict(gift))
+                gift_item = GiftItem()
+                gift_item['gfid'] = int(gift['id'])
+                gift_item['name'] = gift['name']
+                gift_item['type'] = int(gift['type'])
+                gift_item['desc'] = gift['intro']
+                gift_item['price'] = gift['pc']
+                gift_item['platform'] = apiconstants.PLATFORM_DOUYU
+                gift_item['small_icon'] = gift['mimg']
+                gift_item['animation_icon'] = gift['himg']
+                RedisData.add_gift_info(self.redis_client, apiconstants.PLATFORM_DOUYU, dict(gift_item))
+                query = self.dbpool.runInteraction(self.do_insert_gift, gift_item)
+                query.addErrback(self.handle_error)  # 处理异常
             # 存入Redis主播数据
             item.pop('gift_list')
         anchor_redis_name = 'anchor:' + str(apiconstants.PLATFORM_DOUYU) + ":" + str(anthor_id)
-        self.redis_client.getInstance().hmset(anchor_redis_name, dict(item))  # 更新数据库数据
+        self.redis_client.hmset(anchor_redis_name, dict(item))  # 更新数据库数据
         anchor_id_list_redis_name = 'anchor_id_list:' + str(apiconstants.PLATFORM_DOUYU)
-        self.redis_client.getInstance().sadd(anchor_id_list_redis_name, anthor_id)
+        self.redis_client.sadd(anchor_id_list_redis_name, anthor_id)
 
     # 保存主播数据
     def do_insert_anthor(self, cursor, item):
         # 判断主播是否存在
-        exist_sql = "select * from anthor where platform=%s and room_id=%s" % (1, item['room_id'])
+        exist_sql = "select * from anthor where platform=%s and room_id=%s" % (apiconstants.PLATFORM_DOUYU, item['room_id'])
         cursor.execute(exist_sql)
         cursor.fetchall()
         if cursor.rowcount == 0:
@@ -151,28 +162,29 @@ class MysqlTwistedPipeline(object):
                                 VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
                             """
             cursor.execute(insert_sql, (
-                item['nickname'], item['avatar'], item['sex'], item['weight'], 1, item['room_id'], item['room_href'],
+                item['nickname'], item['avatar'], item['sex'], item['weight'], apiconstants.PLATFORM_DOUYU, item['room_id'], item['room_href'],
                 item['room_name'], item['room_thumb'], item['cate_id'], item['fans_num']))
         else:
             print("存在主播数据")
 
     # 保存主播礼物数据
-    def do_insert_gift(self, cursor, item):
+    def do_insert_gift(self, cursor, gift):
         # 判断主播是否存在
-        exist_sql = "select * from gift where platform=%s and gid=%s" % (1, item['room_id'])
+        exist_sql = "select * from gift where platform=%s and gfid=%s" % (apiconstants.PLATFORM_DOUYU, gift['gfid'])
         cursor.execute(exist_sql)
         cursor.fetchall()
         if cursor.rowcount == 0:
-            print("不存在主播数据，入库")
+            print("不存在礼物数据，入库")
             # 执行具体的插入
             insert_sql = """
-                                insert into gift(gid,name,desc,intro,platform,cost,contribution)
-                                VALUES (%s,%s,%s,%s,%s,%s,%s)
-                            """
+                insert into gift(gfid,name,type,`desc`,price,platform,small_icon,animation_icon)
+                VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+            """
             cursor.execute(insert_sql, (
-                item['gid'], item['name'], item['desc'], item['intro'], item['platform'], item['cost'], item['contribution']))
+                gift['gfid'], gift['name'], gift['type'], gift['desc'],
+                gift['price'], apiconstants.PLATFORM_DOUYU, gift['small_icon'], gift['animation_icon']))
         else:
-            print("存在主播数据")
+            print("存在礼物数据")
 
 
     def handle_error(self, failure):

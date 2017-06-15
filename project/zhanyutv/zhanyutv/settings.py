@@ -106,13 +106,3 @@ BASE_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 sys.path.insert(0, os.path.join(BASE_DIR, 'zhanyutv'))
 
 RANDOM_UA_TYPE = "random"
-
-# REDIS_HOST = "192.168.2.105" # 家测试环境
-REDIS_HOST = "192.168.135.128"  # 公司测试环境
-REDIS_PORT = 6379
-REDIS_PASSWORD = "zxcvbnm"
-
-# MONGODB_HOST = "192.168.2.105" # 家测试环境
-MONGODB_HOST = "192.168.135.128"  # 公司测试环境
-MONGODB_PORT = 27017
-MONGODB_PASSWORD = ""

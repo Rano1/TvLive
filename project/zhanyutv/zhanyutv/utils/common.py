@@ -1,5 +1,6 @@
 import hashlib
 import re
+import json
 
 
 # 获取MD5(先判断传入的参数是否是utf8)
@@ -19,3 +20,14 @@ def extract_num(text):
     else:
         nums = 0
     return nums
+
+# 验证是否为 json 数据格式
+def valid_json(my_json):
+    """ 验证是否为 json 数据格式"""
+    try:
+        json_object = json.loads(my_json)
+    except ValueError as e:
+        print(e)
+        return False
+    return json_object
+

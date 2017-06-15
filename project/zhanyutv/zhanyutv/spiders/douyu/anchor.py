@@ -69,7 +69,7 @@ class AnchorSpider(scrapy.Spider):
                             yield Request(url=roominfo_url, callback=self.parse_anchor_info)
                 else:
                     is_end = True
-
+                is_end = True  # 测试，只爬取一页
                 self.offset = self.offset + result_count
 
         print(anchor_uids)

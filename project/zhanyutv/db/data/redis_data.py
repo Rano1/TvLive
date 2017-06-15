@@ -29,3 +29,11 @@ class RedisData:
         r = redis.Redis(connection_pool=RedisData.pool)
         cate_redis_name = 'cate:' + str(platform) + ":" + cate_info['cate_id']  # 平台类别
         r.hmset(cate_redis_name, dict(cate_info))
+
+    @staticmethod
+    def add_gift_info(redis_client, platform, gift_info):
+        if redis_client is None:
+            redis_client = redis.Redis(connection_pool=RedisData.pool)
+        # 存入Redis
+        gift_redis_name = 'gift:%s:%s' % (str(platform), gift_info['gfid'])  # 平台加礼物ID
+        redis_client.hmset(gift_redis_name, dict(gift_info))
